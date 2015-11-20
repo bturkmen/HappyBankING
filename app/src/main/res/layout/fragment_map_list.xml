@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap_app_background"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lvChannel"
+        style="@style/pm_PageStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:divider="@drawable/bitmap_grey"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/rlLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center_horizontal">
+
+        <ingbank.com.tr.happybanking.ui.ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</LinearLayout>

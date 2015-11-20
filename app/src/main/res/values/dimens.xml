@@ -1,6 +1,122 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">14dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="content_height">45.33dp</dimen>
+    <dimen name="searcharea_height">48.67dp</dimen>
+
+    <dimen name="nm_contract_page_padding_left">14dp</dimen>
+    <dimen name="nm_contract_page_padding_right">14dp</dimen>
+
+    <dimen name="nm_page_padding_top">0dp</dimen>
+    <dimen name="nm_page_padding_bottom">0dp</dimen>
+
+    <!--
+    EZGI
+    -->
+    <dimen name="nm_login_page_left_padding">18dp</dimen>
+    <dimen name="nm_login_page_content_margin">14dp</dimen>
+    <dimen name="nm_editTextSize">20.33sp</dimen>
+    <dimen name="nm_editTextHintSize">18sp</dimen>
+
+
+    <!--
+    EZGI
+    -->
+    <!-- SYSTEM VALUES-->
+    <dimen name="status_bar_height">25dip</dimen>
+    <!-- SYSTEM VALUES-->
+
+    <dimen name="page_padding_left">16.67dp</dimen>
+    <dimen name="page_padding_right">16.67dp</dimen>
+    <dimen name="page_padding_top">10.67dp</dimen>
+    <dimen name="page_padding_bottom">16.67dp</dimen>
+
+
+    <dimen name="content_padding_left">10dp</dimen>
+    <dimen name="content_padding_right">10dp</dimen>
+    <dimen name="content_padding_top">10dp</dimen>
+    <dimen name="content_padding_bottom">10dp</dimen>
+    <dimen name="content_padding_middle">10dp</dimen>
+    <dimen name="content_padding_left_negative">-10dp</dimen>
+    <dimen name="content_padding_right_negative">-10dp</dimen>
+
+    <dimen name="text_padding_left">@dimen/page_padding_top</dimen>
+    <dimen name="text_padding_right">@dimen/page_padding_top</dimen>
+    <dimen name="text_padding_top">@dimen/page_padding_left</dimen>
+    <dimen name="text_padding_bottom">@dimen/page_padding_left</dimen>
+
+    <dimen name="biggest_text_size">19dp</dimen>
+    <dimen name="bigger_text_size">17dp</dimen>
+    <dimen name="middle_text_size">15dp</dimen>
+    <dimen name="lower_text_size">12dp</dimen>
+    <dimen name="lowest_text_size">10dp</dimen>
+
+
+    <dimen name="m_maskedcard_spacing_big">8dp</dimen>
+    <dimen name="m_maskedcard_spacing_small">2dp</dimen>
+
+    <dimen name="change_password_success_above_tick">105.33dp</dimen>
+
+    <dimen name="space_between_indicator">6dp</dimen>
+    <dimen name="indicator_height">30dp</dimen>
+    <dimen name="mobile_pass_tutorial_text_padding">52dp</dimen>
+    <dimen name="mobile_pass_tutorial_header_padding">46dp</dimen>
+    <dimen name="mobile_pass_tutorial_header_textsize">16sp</dimen>
+    <dimen name="currency_calculator_keypad_row_height">60dp</dimen>
+
+    <dimen name="settings_toggle_width">60dp</dimen>
+    <dimen name="settings_toggle_height">30dp</dimen>
+    <dimen name="settings_toggle_circle_diameter">24dp</dimen>
+    <dimen name="settings_toggle_circle_radius">15dp</dimen>
+
+    <!-- Mustafa: used in mobile pin and dashboard -->
+    <dimen name="text_size_bigger">20.33dp</dimen>
+    <dimen name="text_size_big">18dp</dimen>
+    <dimen name="text_size_middle">17dp</dimen>
+    <dimen name="text_size_middle2">16.6dp</dimen>
+    <dimen name="text_size_small">15dp</dimen>
+    <dimen name="text_size_smaller">12sp</dimen>
+
+    <dimen name="float_label_normal_size">18sp</dimen>
+    <dimen name="ing_button_inner_padding">11dp</dimen>
+    <dimen name="ing_button_line_height">1dp</dimen>
+    <dimen name="ing_button_text_size">19sp</dimen>
+    <dimen name="tvGrayStrip_height">19dp</dimen>
+    <dimen name="checkbox_height">19dp</dimen>
+    <dimen name="checkbox_width">19dp</dimen>
+    <dimen name="card_payment_amount_height">59dp</dimen>
+    <dimen name="card_payment_sectionbutton_margin_top">11dp</dimen>
+    <dimen name="card_payment_upper_margin">6dp</dimen>
+    <dimen name="success_act_icon_margin_top">80dp</dimen>
+    <dimen name="success_act_icon_margin_bottom">25dp</dimen>
+
+
+    <dimen name="card_list_item_padding_left">4dp</dimen>
+    <dimen name="card_icon_size">31dp</dimen>
+    <dimen name="card_icon_margin_left">10dp</dimen>
+    <dimen name="card_icon_margin_top">21.6dp</dimen>
+    <dimen name="card_content_margin_top">18dp</dimen>
+
+    <dimen name="stroke_light">0.7dp</dimen>
+
+
+    <dimen name="actionBarTextSize">17sp</dimen>
+    <dimen name="ptr_progress_bar_stroke_width">4dp</dimen>
+    <dimen name="indicator">10dp</dimen>
+
+    <!-- Material Progress Bar -->
+
+    <color name="cpv_default_color">#FF6600</color>
+    <dimen name="cpv_default_thickness">20dp</dimen>
+    <integer name="cpv_default_progress">0</integer>
+    <integer name="cpv_default_max_progress">100</integer>
+    <bool name="cpv_default_is_indeterminate">false</bool>
+    <bool name="cpv_default_anim_autostart">false</bool>
+    <integer name="cpv_default_anim_duration">4000</integer>
+    <integer name="cpv_default_anim_swoop_duration">5000</integer>
+    <integer name="cpv_default_anim_sync_duration">500</integer>
+    <integer name="cpv_default_anim_steps">3</integer>
+
 </resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_map_view"
+        android:icon="@drawable/map_listing_view"
+        android:orderInCategory="100"
+        android:title="Liste Görünümü"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_list_view"
+        android:icon="@drawable/map_map_view"
+        android:orderInCategory="100"
+        android:title="Harita Görünümü"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

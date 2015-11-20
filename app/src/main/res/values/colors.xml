@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <color name="im_login_gradient_start">#FFFFFF</color>
+    <color name="im_login_gradient_end">#CEC5B7</color>
+
+
+    <color name="gray">#767676</color>
+    <color name="dark2">#666666</color>
+    <color name="gray_tab">#514748</color>
+
+    <color name="backgroundColor">#f8f6f2</color>
+
+
+    <color name="pageActionButtonColor">#bababa</color>
+
+
+    <!--EZGI ILE EKLEDIKLERIMIZ-->
+    <color name="black">#000000</color>
+    <color name="textFieldColor">#383838</color>
+    <color name="whiteOpac50">#80ffffff</color>
+    <color name="whiteOpac40">#64ffffff</color>
+    <color name="whiteOpac30">#48ffffff</color>
+    <color name="whiteOpac20">#33ffffff</color>
+    <color name="whiteOpac60">#96ffffff</color>
+    <color name="whiteOpac70">#b3ffffff</color>
+    <color name="whiteOpac95">#e6ffffff</color>
+    <color name="textFieldColorOpac70">#B3383838</color>
+    <color name="cell_seperator_login">#E8DACA</color>
+    <color name="passive_indicator">#E9E5DB</color>
+    <color name="orange">@color/ing_orange</color>
+    <color name="strokeColor">#e5d4c2</color>
+
+    <!-- -->
+
+
+    <!--Style Guideline colors.-->
+    <!--<color name="transparent">#00000000</color>-->
+    <color name="ing_orange_opaque">#80FF6600</color>
+    <color name="ing_orange_opaque35">#A5FF6600</color>
+    <color name="ing_orange_opaque65">#5AFF6600</color>
+    <color name="light_blue">#83C6F4</color>
+    <color name="off_white">#F4F4F4</color>
+    <color name="palest_gray">#E4E4E4</color>
+    <color name="pale_gray">#CCCCCC</color>
+
+
+    <!--hint color-->
+    <color name="light_gray">#999999</color>
+    <color name="light_gray2">#908e8b</color>
+    <color name="medium_gray">#545454</color>
+    <color name="dark_gray">#333333</color>
+    <color name="black_gray">#161616</color>
+    <color name="yellow">#FFCE00</color>
+    <color name="indigo_blue">#4C4CA1</color>
+
+    <color name="dashboard_bg_gray">#E0E0E0</color>
+
+
+    <!--Style Guideline colors end.-->
+    <color name="strip_color">#88161616</color>
+    <color name="listItemGray">@color/off_white</color>
+    <color name="dark">@color/dark_gray</color>
+    <color name="circle_indicator_fill_color">@color/white</color>
+    <color name="circle_indicator_stroke_color">@color/black_gray</color>
+    <color name="circle_indicator_page_color">@color/light_gray</color>
+    <color name="list_background">@color/dark_gray</color>
+    <color name="list_background_pressed">@color/ing_orange</color>
+    <color name="counter_text_bg">@color/medium_gray</color>
+    <color name="counter_text_color">@color/pale_gray</color>
+
+
+    <color name="popup_bg_color">@color/medium_gray</color>
+    <color name="separator_color">@color/pale_gray</color>
+    <color name="popup_text_color">@color/white</color>
+
+
+    <color name="tvApply_active">@color/ing_orange</color>
+    <color name="tvApply_passive">#c3bfb6</color>
+
+    <!--PagerSlidingTabStrip -->
+    <color name="activate_text_color">#FF666666</color>
+    <color name="deactivate_text_color">#FFCCCCCC</color>
+
+    <color name="bottom_stroke_color">#e0c6af</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="ing_orange">#FF6600</color>
+    <color name="white">#ffffff</color>
+
+    <color name="default_progress_bar_color">#FF33B5E5</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="dashboard_bg">#514c48</color>
+
+
+
+    <!-- SquarePageIndicator -->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+
+    <color name="ame_default_cluster_circle_color_small">#FF008CFF</color>
+    <color name="ame_default_cluster_circle_color_medium">#FFFFBF00</color>
+    <color name="ame_default_cluster_circle_color_large">#FFFF0000</color>
+    <color name="ame_default_cluster_circle_color_extra_large">#FFFF00ED</color>
+    <color name="ame_default_cluster_circle_shadow_color">#8000</color>
+    <color name="ame_default_cluster_text_color">#FFF</color>
+    <color name="ame_default_cluster_text_shadow_color">#000</color>
+
+    <dimen name="ame_default_cluster_circle_blur_radius">5dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_blur_radius">1dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_offset_x">2dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_offset_y">2dp</dimen>
+    <dimen name="ame_default_cluster_text_padding">5dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_blur_radius">1dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_offset_x">1dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_offset_y">1dp</dimen>
+    <dimen name="ame_default_cluster_text_size">16dp</dimen>
+
 </resources>

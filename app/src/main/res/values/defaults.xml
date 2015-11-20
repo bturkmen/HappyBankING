@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spb_default_color">#33b5e5</color>
+    <dimen name="spb_default_stroke_separator_length">4dp</dimen>
+    <dimen name="spb_default_stroke_width">4dp</dimen>
+    <integer name="spb_default_sections_count">4</integer>
+    <integer name="spb_default_interpolator">0</integer>
+    <item name="spb_default_speed" format="float" type="string">1.0</item>
+    <bool name="spb_default_reversed">false</bool>
+    <bool name="spb_default_mirror_mode">false</bool>
+    <bool name="default_square_indicator_centered">true</bool>
+    <color name="default_square_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_square_indicator_page_color">#00000000</color>
+    <integer name="default_square_indicator_orientation">0</integer>
+    <dimen name="default_square_indicator_radius">3dp</dimen>
+    <bool name="default_square_indicator_snap">false</bool>
+    <color name="default_square_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_square_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_imageview_height">200dip</dimen>
+
+</resources>

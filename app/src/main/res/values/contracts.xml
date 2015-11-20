@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cont1">"Hesap cüzdanının, hesabın varlığını hukuken ispatlayıcı bir belge niteliğinde olduğunu ve şubeden temin edilebileceğimi biliyorum, hesap açılış işlemlerine devam etmek istiyorum."</string>
+    <string name="cont2">"ING Turuncu Hesap O/N (gecelik) vadeli mevduat özelliklerine sahip bir tasarruf hesabıdır.
+    ING Turuncu Hesap'a dilenen sıklıkta para yatırılıp, dilenen sıklıkta para çekilebilir. Hesaptan para çekme veya hesaba para yatırma işlemleri, çalışma günleri içinde şubelerden veya internet/çağrı merkezi aracılığıyla EFT/havale sisteminin işlediği saatler arasında yapılabilecektir.? Tatil günlerinde hesaptan para çekilmesi/hesaba para yatırılması halinde çekilen/yatırılan tutar için faiz geliri elde edilemeyecektir.
+    ING Turuncu Hesap'a herhangi bir düzenli ödeme ya da fatura ödemesi bağlanamaz. EFT/havale işlemi yapılabilir, ancak ileri tarihli EFT/havale talimatı verilemez.
+    Banka, ING Turuncu Hesap için bir alt limit belirleyebilecek, müşteri bu limitin altında kalan ING Turuncu Hesap bakiyesini alt limit tutarına tamamlamadığı takdirde hesabına faiz işletilmeyecektir. ING Turuncu Hesap bakiyesinin alt limitin üzerinde bir bakiye olması durumunda da Banka, alt limit tutarına kadar olan bakiyeye faiz vermeyebilecektir.
+    Banka, ING Turuncu Hesap ile ilgili kampanya yapabilir ve kampanya kapsamında hesap açtıran müşterilere Hoş geldin faizi verebilir. Bankanın böyle bir kampanya yapması halinde, Bankanın belirleyeceği bir süreyle, hesapta bulunan tutar için 'Hoş geldin faiz oranı' işleyecektir. Müşteri, Hoş geldin faizinden sadece kampanya dönemlerinde ve sadece bir kez ve ilk kez hesap açtırırken yararlanabilecektir. Hoş geldin faiz oranının uygulanma süresi,hesapta bakiye olmasa dahi hesabın açılması ile başlar. Hesaba para yatırılmadığı günler için, müşteri herhangi bir faiz talebinde bulunamaz. Kampanya dönemindeki Hoş geldin faiz oranı işleme süresi bittikten sonra, hesaba verilecek gecelik faiz oranları, Bankaca güncellenecektir.
+    ING Turuncu Hesap'ta müşterilere uygulanan faiz oranı, Banka tarafından TCMB'ye bildirilen asgari ve azami faiz oranları arasında kalmak şartıyla, ING Turuncu Hesaplardaki müşteri mevduatının toplam büyüklüğüne ya da birikim özelliği olup olmadığına göre farklılık gösterebilir. Banka, mevduat hesaplarına uygulayacağı asgari faiz oranlarını, şubelerinde ve internet sitesinde ilan eder. ING Turuncu Hesap sahibi müşteriler, hesaplarına uygulanan faiz oranlarını internet bankacılığı, telefon bankacılığı ve şubelerden öğrenebilirler.
+    Bir müşteri, bankanın belirlediği sayıda ING Turuncu Hesap açabilir. Hesaplara uygulanacak faiz oranı tüm bu hesapların toplam bakiyesi ve ilk açılan ING Turuncu Hesap'ın koşulları dikkate alınarak belirlenir. İlk açtırılan ING Turuncu Hesap sonrasında açılan ING Turuncu Hesaplar, bu ilk açılan hesaba bağlı olarak işleyecektir.
+    ING Turuncu Hesap faiz hesaplamasında küsuratlı bir rakamın ortaya çıkması halinde, rakam virgülden sonraki iki haneye yuvarlanacak ve yeni faiz hesaplaması bu rakam üzerinden yapılacaktır. ? ING Turuncu Hesap sahiplerinin İnternet/Mobil ve Telefon Bankacılığı'nda işlem yapabilmeleri için gereken tanımlamaları yapılacaktır.
+
+    Hesap cüzdanının, hesabın varlığını hukuken ispatlayıcı bir belge niteliğinde olduğunu ve şubeden temin edilebileceğimi biliyorum, hesap açılış işlemlerine devam etmek istiyorum.
+    Adınıza ING Turuncu Hesap açılmasını, hesap işleyişini anladığınızı ve kabul ettiğinizi burada yer almayan hususlarda Banka ile imzalamış olduğunuz Bireysel Bankacılık Hizmetleri Sözleşmesi hükümlerinin uygulanacağını kabul ediyor musunuz?"</string>
+    <string name="cont3">"Temdit tipi 2 (vadeli hesaba işleyen faiz tutarının, vade sonunda vadesiz hesabınıza aktarılması şeklinde işler) olan vadeli hesapların özellikleri ve çalışma şekli aşağıda belirtilmiştir.
+    Açılacak olan vadeli yeni hesap numaranız işlem sonuç ekranında bildirilecek olup, ilgili vadeli hesabınıza tahakkuk edece faizler, aksi bir talimat vereceğiniz süreye kadar tahakkuk tarihinde #IBAN# no'lu vadesiz hesabınıza aktarılacaktır.
+    İşlemi onaylıyor musunuz?""</string>
+    <string name="cont4">"Temdit tipi 3 (vadeli hesaba işleyen faiz tutarının ve anaparanın tamamının, birlikte, vade sonunda vadesiz hesabınıza aktarılarak vadeli hesabın kapatılması şeklinde işler) olan vadeli hesapların özellikleri ve çalışma şekli aşağıda belirtilmiştir.
+    Açılacak olan vadeli yeni hesap numaranız işlem sonuç ekranında bildirilecek olup, ilgili vadeli hesabınıza tahakkuk edecek faizler ve anapara tutarının tamamı, tahakkuk tarihinde #IBAN# no'lu vadesiz hesabınıza aktarılacak ve vadeli hesabınız kapatılacaktır.
+    İşlemi onaylıyor musunuz?"</string>
+    <string name="cont5">""</string>
+    <string name="cont6">""</string>
+    <string name="cont7">""</string>
+    <string name="cont8">""</string>
+    <string name="cont9">""</string>
+    <string name="cont10">"
+    ING Bank Cep Şubenin herhangi bir sayfasına girerek, aşağıda belirtilen şartları kabul etmektesiniz.
+
+    Aşağıda yer alan şartları kabul etmemeniz halinde, ING Bank Cep Şubeye erişmeyiniz. ING Bank Cep Şubenin kullanımında Bankamız ile imzaladığınız Bankacılık Hizmetleri Sözleşmesi Hükümlerine tabi olacaksınız. ING Bank A.Ş. ING Bank Cep Şubeye hoş geldiniz. Bu bölüm, ING Bank Cep Şubeyi kullandığınızda, kurumumuzun politikalarını içermektedir.
+
+    Her Hakkı Saklıdır ©
+
+    İşbu ING Bank Cep Şubesi Fikir ve Sanat Eserleri Kanunu'na tabidir ve içeriğine ilişkin her türlü ses, görüntü, yazı içeren bilgi-belge, marka ve her türlü fikri ve sinai haklar ile tüm telif hakları ve diğer fikri ve sinai mülkiyet hakları ING Bank A.Ş.'ye aittir. İşbu ING Bank Cep Şubenin yapısı ve içeriği, uygulamada kullanılan her türlü görsel malzeme Fikir ve Sanat Eserleri Kanunu ve Türk Ceza Kanunu kapsamında korunmaktadır.
+
+    ING Bank Cep Şubede yer alan bilgilerin çoğaltılması, başka bir lisana çevrilmesi, saklanması veya işleme tutulması da dahil, ING Bank A.Ş.'nin önceden yazılı iznine tabidir. Bu sebeple işbu sitede uygulamada yer alan bilgiler ING Bank A.Ş.'nin yazılı izni olmadan hiçbir şekilde, çoğaltılamaz, yayınlanamaz, kopyalanamaz, sunulamaz ve aktarılamaz. Sitenin ING Bank Cep Şubenin bütünü veya bir kısmı diğer bir Web sitesinde uygulamada izinsiz olarak kullanılamaz.
+
+    ING Bank A.Ş.'nin yazılı izni olmadıkça bu internet sitesine ING Bank Cep Şubesine link verilmesi yasaktır.
+
+
+    Sorumluluk Muafiyeti
+    ING Bank A.Ş. ING Bank Cep şubeye kesintisiz giriş sağlanacağını garanti etmemektedir. ING Bank Cep şubenin kullanımı nedeniyle bağlantı cihazında oluşan veya oluşabilecek arıza, bozulma, zayi olma vesair doğrudan veya dolaylı hiçbir zarardan ING Bank A.Ş. sorumlu tutulamaz. ING Bank Cep Şube yapısı, içeriği ve içeriğinde bulunan tüm bilgiler önceden haber verilmeksizin değiştirilebilir.
+
+    ING Bank A.Ş. ING Bank Cep şubenin virüs koruması önlemlerini almış olmakla birlikte, bu konuda bir garanti vermemektedir. Herhangi bir bilgiyi, uygulamayı, görseli vb. materyali indirmeden önce virüslerden korunma konusunda gerekli önlemlerin alınması tavsiye edilir.
+    Ziyaretçi Bilgileri
+    Ziyaretçilerin ad, soyadı, e mail adresleri gibi kişisel bilgileri ancak kendileri tarafından girilir ise veri olarak tutulur. Bu bilgiler ING Bank A.Ş. tarafından güvenli biçimde saklanmaktadır. İşlem bazında tıklama yüzdeleri, kullandıkları marka model vb., IP adresleri gibi bazı verileri ING Bank Cep Şube de loglanır.
+
+    Kullanım Şartları ve gizlilik bilgileri önceden bildirimde bulunmaksızın zamanla yasalara uygun olarak değiştirilmiş olabilir yâda yeni uygulamaları yansıtacak şekilde güncellenmiş olabilir.
+
+    ING Bank Cep Şubesinde kullandığınızı kullanıcı kodu ve şifre gibi kişisel bilgilerinizi banka personeli dâhil 3. Şahıslarla paylaşmayınız.
+
+    ING Bank Cep Şubeye ilişkin tüm haklar ING Bank A.Ş. de saklıdır. ©
+    "</string>
+    <string name="cont11">"ATM, İnternet, Telefon ve Mobil Bankacılık İşlemlerinde Güvenliğiniz İçin Önemli Uyarılar
+
+    Kullandığınız ürün için bankanız tarafından yapılan kullanım ve güvenlik konulu bilgilendirmeleri lütfen düzenli takip edin.
+    Hangi kanaldan olursa olsun, güvenliğiniz ile ilgili konularda sorularınız ve tereddüt ettiğiniz hususlar için lütfen bankanıza başvurun.
+    Kimliğiniz son derece önemli bir belgedir. Bu nedenle, taranmış görüntüsünü bilgisayarınızda saklamayınız. Kimlik fotokopinizi emin olmadığınız yerlere bırakmayınız.
+    Bilgilerinizi saklamakta azami özen gösteriniz. Şüphelenmeniz durumda önleminizi mutlaka alınız.
+    İnternet ve Mobil Bankacılıkta Güvenliğinizi Sağlayacak Önlemler
+
+    İnternet/Mobil bankacılık şifrenizi herhangi bir yere yazmayınız. Bilgisayara veya tarayıcıya kayıt etmeyiniz. Yakınlarınızın ismi, doğum günü, tuttuğunuz takımın kuruluşu yılı gibi özel gün ve tarihleri, telefon numaranız gibi tahmine açık bilgileri şifre olarak seçmeyiniz.
+    İnternet salonları, ortak kullanıma açık, iş yeri bilgisayarı gibi başkalarına ait ya da başkalarının erişimine açık cihazlarda İnternet/Mobil Bankacılık işlemi yapmayınız.
+    Bankalar kişisel bilgilerinizi sizden e-posta yoluyla talep etmez. Kişisel bilgilerinizi soran e-postalara kesinlikle cevap vermeyin; kişisel bilgilerinizi e-posta ile göndermeyin ve bu tür durumlarda bankanıza derhal konu hakkında bilgi veriniz.
+    Bilgisayarınızda kopya veya lisansı olmayan yazılım kullanmayınız ve mutlaka sisteminizin güncel sürümlerini kullanınız.
+    Bilgisayarınızda lisanslı “anti-virüs” ve “güvenlik duvarı (firewall)” programları kullanınız ve bunları sürekli güncel tutunuz.
+    İnternet/Mobil Bankacılık güvenlik ayarlarınızı ihtiyaçlarınız ve kullanım alışkanlıklarınız doğrultusunda belirleyiniz. (IP sınırlaması, saat sınırlaması gibi)
+    Erişmek istediğiniz internet sayfasının adresini, internet tarayıcısının adres alanına kendiniz yazınız.
+    SMS onay kullanıyorsanız, “internet bankacılığı” yaptığınız telefon numaranıza SMS mesajı gelmemesi halinde derhal bankanızı ve operatörünüzü arayınız.
+    Türkiye Bankalar Birliği tarafından hazırlanan bildiridir."</string>
+    <string name="cont12">"Nezdinizdeki hesabım/ızdan yapılacak olan işbu para transferi işleminin, alıcısına ait Uluslararası Banka Hesap Numarası (IBAN) belirtmeksizin/doğrulanmaksızın yapılması ve transfer işleminin gerçekleştirilmesini, TCMB'nın 2008/6 sayılı Tebliğinin ilgili hükümleri çerçevesinde alıcıya ait IBAN'ı bildirmeyeceğimi ve IBAN eksikliği/doğrulanmaması nedeniyle oluşabilecek; para transferinin gerçekleşmemesi, geç gerçekleşmesi, hesaba geçmemesi, yanlış hesaba geçmesi; ek maliyetlere sebep olması gibi problemler ile ilgili tüm sorumluluğun tarafıma/tarafımıza ait olduğunu, geri dönülemez olarak kabul beyan ve taahhüt ederim."</string>
+    <string name="cont13">"Lorem ipsum"</string>
+    <string name="cont14">"Lorem ipsum"</string>
+
+
+    <string name="contHeader1">"İşlem Beyanı"</string>
+    <string name="contHeader2">""</string>
+    <string name="contHeader3">""</string>
+    <string name="contHeader4">""</string>
+    <string name="contHeader5">""</string>
+    <string name="contHeader6">""</string>
+    <string name="contHeader7">""</string>
+    <string name="contHeader8">""</string>
+    <string name="contHeader9">""</string>
+    <string name="contHeader10">"ING Mobil Hizmet Sözleşmesi"</string>
+    <string name="contHeader11">"Güvenlik Kılavuzu"</string>
+    <string name="contHeader12">"IBAN Beyan Formu"</string>
+    <string name="contHeader13">"Destek Hesap Bilgilendirme"</string>
+    <string name="contHeader14">"Destek Hesap Ödeme Taahhütnamesi"</string>
+
+
+    <string name="contOk1">""</string>
+    <string name="contOk2">""</string>
+    <string name="contOk3">""</string>
+    <string name="contOk4">""</string>
+    <string name="contOk5">""</string>
+    <string name="contOk6">""</string>
+    <string name="contOk7">""</string>
+    <string name="contOk8">""</string>
+    <string name="contOk9">""</string>
+    <string name="contOk10">"Kabul Ediyorum"</string>
+    <string name="contOk11">"Kabul Ediyorum"</string>
+    <string name="contOk12">"Tamam "</string>
+    <string name="contOk13">""</string>
+    <string name="contOk14">""</string>
+
+    <string name="contCancel1">""</string>
+    <string name="contCancel2">""</string>
+    <string name="contCancel3">""</string>
+    <string name="contCancel4">""</string>
+    <string name="contCancel5">""</string>
+    <string name="contCancel6">""</string>
+    <string name="contCancel7">""</string>
+    <string name="contCancel8">""</string>
+    <string name="contCancel9">""</string>
+    <string name="contCancel10">"Vazgeç"</string>
+    <string name="contCancel11">"Vazgeç"</string>
+    <string name="contCancel12">"Vazgeç"</string>
+    <string name="contCancel13">""</string>
+    <string name="contCancel14">""</string>
+
+
+
+</resources>

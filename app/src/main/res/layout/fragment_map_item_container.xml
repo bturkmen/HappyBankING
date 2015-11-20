@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.ingbanktr.ingmobil.activity.map.fragment.MapItemContainerFragment">
+
+    <LinearLayout
+        android:id="@+id/llViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ingbank.com.tr.happybanking.map.fragment.WrapContentViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <ingbank.com.tr.happybanking.common.ui.controls.SquarePageIndicator
+            android:id="@+id/pageIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:orientation="horizontal"
+        android:paddingRight="13dp">
+
+        <TextView
+            android:id="@+id/txtAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:text="@string/im_map_appointment"
+            android:textColor="@color/ing_orange"
+            android:textSize="@dimen/bigger_text_size"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/txtDirection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:gravity="right|center_vertical"
+            android:textAllCaps="false"
+            android:tag="@string/typeFaceRegular"
+            android:text="@string/im_map_direction"
+            android:textColor="@color/ing_orange"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>
+

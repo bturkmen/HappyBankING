@@ -1,4 +1,1238 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">Happy BankING</string>
+
+    <string name="title_activity_main">ING Mobil - Test</string>
+
+    <!--
+    METINLER  ="<string name="&CHAR(34)&"s"&A2&CHAR(34)&">"&CHAR(34)&D2&CHAR(34)&"</string>"
+    INPUT     ="<string name="&CHAR(34)&"input"&A2&CHAR(34)&">"&CHAR(34)&G2&CHAR(34)&"</string>"
+    (aslinda hint)
+    OUTPUT    ="<string name="&CHAR(34)&"output"&A2&CHAR(34)&">"&CHAR(34)&D2&CHAR(34)&"</string>"
+    UyariHata ="<string name="&CHAR(34)&"error"&A2&CHAR(34)&">"&CHAR(34)&D2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"errorHeader"&A2&CHAR(34)&">"&CHAR(34)&C2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"errorClose"&A2&CHAR(34)&">"&CHAR(34)&E2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"errorOk"&A2&CHAR(34)&">"&CHAR(34)&F2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"errorCancel"&A2&CHAR(34)&">"&CHAR(34)&G2&CHAR(34)&"</string>"
+    INFO      ="<string name="&CHAR(34)&"info"&A3&CHAR(34)&">"&CHAR(34)&D3&CHAR(34)&"</string>"
+    CONTRACT  ="<string name="&CHAR(34)&"cont"&A2&CHAR(34)&">"&CHAR(34)&G2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"contHeader"&A2&CHAR(34)&">"&CHAR(34)&D2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"contOk"&A2&CHAR(34)&">"&CHAR(34)&E2&CHAR(34)&"</string>"
+              ="<string name="&CHAR(34)&"contCancel"&A2&CHAR(34)&">"&CHAR(34)&F2&CHAR(34)&"</string>"
+    -->
+
+
+    <!-- GLOBAL TEXTs -->
+    <string name="global_alertHttpError">"İnternet bağlantın ile ilgili bir problem var. Kontrol eder misin?"</string>
+    <string name="global_ok">"Tamam"</string>
+    <string name="global_yes">"Evet"</string>
+    <string name="global_alertTitle4">"Bilgine"</string>
+    <string name="Global_PermissionFacebookNew">"Sana saygım sonsuz ama sen cihazının gizlilik ayarlarından ParaMara'nın Facebook hesabına erişimine izin vermediğin sürece işlemini yapamam :("</string>
+    <string name="global_facebookSending">"Facebook Gönderimi"</string>
+    <string name="global_alertBtn1">"Vazgeç"</string>
+    <string name="global_warning">"Uyarı"</string>
+    <string name="global_error">"Hata"</string>
+    <string name="global_info">"Bilgilendirme"</string>
+    <string name="global_currency">"TL"</string>
+    <string name="global_callCenterPhone">"08502220600"</string>
+    <string name="global_confirm">"Onaylıyorum"</string>
+    <string name="global_cancel">"İptal"</string>
+    <string name="global_welcome">"Hoş geldin"</string>
+    <string name="global_alertTitle3">"Üzgünüz"</string>
+    <string name="global_exit">"Kapat"</string>
+    <string name="expiration_label">SKT:</string>
+    <string name="cvv_label">CVV:</string>
+    <string name="balance_label">Kullanılabilir Bakiye</string>
+    <string name="my_cards_activity">Kartlarım</string>
+    <string name="load_money">Para Yükle</string>
+    <string name="load_money_by_barcode">Barkod Okutarak Para Yükle</string>
+    <string name="transfer_money">Gelen Parayı Al</string>
+    <string name="coming_money">"Gelen Para"</string>
+    <string name="send_money">Para Gönder</string>
+    <string name="set_limit">Limit Tanımla</string>
+    <string name="load_money_to_my_ininal_card">"ininal Kart'a Para Yükle"</string>
+    <string name="load_money_to_other_ininal_card">"Başka ininal Karta Yükle"</string>
+    <string name="statement_date">Hesap Kesim Tarihi</string>
+    <string name="spent_in_term">Dönemiçi Harcaman</string>
+    <string name="ERROR_default">"Sorun sende değil bende."</string>
+    <string name="dlgSuccessProcess_btnClose2">"Süper"</string>
+    <string name="dlgSuccessProcess_btnClose1">"Kapat"</string>
+    <string name="pgHelp_lblHeader">"Yardım"</string>
+    <!--<string name="app_name">ING Mobil</string>-->
+    <string name="hello_world">Hello world!</string>
+    <string name="app_content_type_json">application/json</string>
+    <string name="title_activity_walk_through">WalkThroughActivity</string>
     <string name="action_settings">Settings</string>
+    <string name="global_waiting">Lütfen Bekleyiniz.</string>
+    <string name="dashboard_activity_title">@string/pgMyPage_lblINGWallet1</string>
+    <string name="notification_activity_title">Notification</string>
+    <string name="callWarning"> şubesini aramak istiyor musunuz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="search_hint">"Arama"</string>
+    <string name="title_activity_card_application">@string/caTitleCardApplication</string>
+    <string name="title_activity_card_application_detail">@string/caTitleCardApplication</string>
+    <string name="credit_card">Kredi Kartı</string>
+    <string name="debit_card">Nakit Kart</string>
+    <string name="ininal_card">ininal</string>
+    <string name="global_timeout_message">"Seni beklerken uykum geldi. Tekrar giriş yapar mısın?"</string>
+    <string name="title_activity_facebook_share">Facebook</string>
+    <string name="unica_activity_label">Kampanya</string>
+    <string name="save">Kaydet</string>
+    <string name="call_center">Çağrı Merkezi</string>
+    <string name="save_transaction_enter_alias">Kayıt Adı Girin</string>
+
+    <!-- GLOBAL TEXTs End -->
+
+    <!-- Welcome Screen -->
+    <string name="pgWelcomeScreen_callCenter">"Müşteri İletişim Merkezini arıyoruz. Onaylıyor musun?"</string>
+    <string name="pgWelcomeScreen_lbl1">"Hoş geldin"</string>
+    <string name="pgWelcomeScreen_lbl2">"ininal Kart"</string>
+    <string name="pgWelcomeScreen_lbl3">"Bildirimler"</string>
+    <string name="pgWelcomeScreen_lbl4">"Sana Özel"</string>
+    <string name="pgWelcomeScreen_lbl5">"İstediğin kişiye 7/24, anında para gönderebileceğin süper bir deneyime hazır mısın?"</string>
+    <string name="pgWelcomeScreen_lbl6">"ininal ön ödemeli kart yaratarak ya da varolan kartını ekleyerek, indirimli alışverişin tadını çıkarabilirsin!"</string>
+    <string name="pgWelcomeScreen_lbl7">"Kampanya tekliflerini, gelen paranı ve gelen paranın durumunu haber almak senin de hakkın!"</string>
+    <string name="pgWelcomeScreen_lbl8">"Diğer ihtiyaç duyduğun her şey burada!"</string>
+    <string name="pgWelcomeScreen_btnCreateAccount">"Hemen Başla"</string>
+    <!-- Welcome Screen End -->
+
+    <!-- Create Account -->
+    <string name="pgCreateAccount_edtTCKNPlaceHolder">"TC Kimlik No"</string>
+    <string name="pgCreateAccount_edtPinPlaceHolder">"Şifre"</string>
+    <string name="pgCreateAccount_edtPinConfirmPlaceHolder">"Şifre (Tekrar)"</string>
+    <string name="pgCreateAccount_errorTCKN">"Girdiğin bilgileri kontrol edip tekrar dene!"</string>
+    <string name="pgCreateAccount_errorPhoneNumber">"Girdiğin bilgileri kontrol edip tekrar dene!"</string>
+    <string name="pgCreateAccount_btnNext">"Devam"</string>
+    <string name="pgCreateAccount_Label1">"ParaMara'yı sadece TCKN ve cep telefonunu girerek hemen kullanmaya başlayabilirsin."</string>
+    <string name="pgCreateAccount_lbl1">"Lütfen TCKN ve cep telefonunu gir"</string>
+    <string name="pgCreateAccount_Privacy">"Hesap cüzdanının, hesabın varlığını hukuken ispatlayıcı bir belge niteliğinde olduğunu ve şubeden temin edilebileceğimi biliyorum, hesap açılış işlemlerine devam etmek istiyorum.\n"</string>
+    <string name="pgCreateAccount_privacyText">"Sözleşme Metni"</string>
+    <string name="pgCreateAccount_titleHeader">Aktivasyon</string>
+    <string name="pgCreatePinForAccount_dontMatchPINs">"Maalesef şifreler birbirini tutmuyor. Tekrar dener misin?"</string>
+    <string name="pgCreatePinForAccount_lbl1">"Her girişte kullanacağın 4 haneli şifreni belirle!"</string>
+    <string name="pgCreatePinForAccount_lbl2">"Şifrenin ardışık olmaması, aynı rakamlardan oluşmaması ve 19 ile başlamaması gerekiyor."</string>
+    <string name="pgCreatePinForAccount_error_consecutiveNumber">"Şifren ardışık olmasın."</string>
+    <string name="pgCreatePinForAccount_error_allCharsAreSame">"Tüm karakterleri aynı giremezsin."</string>
+    <string name="pgCreatePinForAccount_error_forbiddenPIN">"Bu şifre uygun değil."</string>
+    <string name="pgCreatePinForAccount_error_startsWith19">"Şifren 19'la başlamasın."</string>
+    <!-- Create Account End -->
+
+
+    <!-- Mobile Pin Activity-->
+    <string name="title_activity_mobile_pin">"Cep Şifre"</string>
+    <string name="pgMobilePinActivityBtnContinue">"Devam"</string>
+    <string name="pgMobilePinActivityBtnBack">"Yukarı"</string>
+    <!-- Mobile Pin Activity End -->
+    <!-- Contract Activity -->
+    <string name="pgPrivacy_lblHeader">"Kullanım Şartları"</string>
+    <string name="pgPrivacy_btnNotAccept">"Sonra\nKonuşalım"</string>
+    <string name="pgPrivacy_btnSendAgreement">"Sözleşme\nGönder"</string>
+    <string name="pgPrivacy_btnAccept">"Kabul\nEdiyorum"</string>
+    <string name="pgSendAgreement_btnAccept">"Gönder"</string>
+    <string name="pgSendAgreement_btnCancel">"Vazgeçtim"</string>
+    <string name="pgSendAgreement_lblInfo">"Lütfen Kullanım Şartlarını göndermek istediğin e-posta adresini gir."</string>
+    <string name="pgSendAgreement_message">"Kullanım Şartları birazdan mail kutunda olur."</string>
+    <!-- Contract Activity End -->
+
+    <!-- Login Activity -->
+    <string name="pgLogin_cancelActivation">"Aktivasyonun iptal edilecek, emin misin?"</string>
+    <string name="pgLogin_sureExit">"Hayır, hayır önce sen kapat"</string>
+    <string name="pgLogin_lblHeader">"Giriş"</string>
+    <string name="pgLogin_lblInfo">", içeri buyurmaz mısın?"</string>
+    <string name="pgLogin_CopyoflblInfo">"Lütfen şifreni gir"</string>
+    <string name="pgLogin_btnNotme">"Bu ben değilim"</string>
+    <string name="pgLogin_btnForgetPass">"Şifremi unuttum"</string>
+    <!-- Login Activity End -->
+
+
+    <!-- Telephone Selection Activation -->
+    <string name="pgTelephoneSelection_info_message">"SMS şifresinin gönderilmesini istediğiniz cep telefonu numaranızı seçiniz."</string>
+    <string name="pgTelephoneSelection_btnSend">"GÖNDER"</string>
+    <!-- Telephone Selection Activation End -->
+
+
+    <!-- Branch Selection -->
+    <string name="dlgChooseBranch_titleHeader">"Şube Seçimi"</string>
+    <string name="city">"İl"</string>
+    <string name="town">"İlçe"</string>
+    <string name="branch">"Şube"</string>
+    <string name="pgNonCustomerBranchSelection_info">Herhangi bir sorunla karşılaştığın zaman, duruma acil müdahale etmesini istediğin şubeyi seç</string>
+    <string name="pgNonCustomerBranchSelection_btnNext">"Devam"</string>
+    <!-- Branch Selection End -->
+
+    <!-- ATM Branch Activity -->
+    <string name="im_map_km">km</string>
+    <string name="im_map_appointment">Randevu Al</string>
+    <string name="im_map_direction">Yol Tarifi Al</string>
+
+
+    <string name="pgMapDetail_atmInformation">ATM Bilgisi</string>
+    <string name="pgMapDetail_atm">ATM</string>
+    <string name="pgMapDetail_lblAdres">Adres</string>
+    <string name="detail_distance">Sana Olan Yaklaşık Mesafesi</string>
+    <string name="pgMapDetail_callBranchMessage">Uygulamadan çıkılıp seçtiğiniz şubenin telefon numarası aranacaktır. Devam etmek istiyor musunuz?</string>
+    <string name="pgMapDetail_qrCode">Randevu Al</string>
+    <string name="pgMapDetail_branchInformation">Şube Bilgisi</string>
+    <string name="pgMapDetail_safeStatus">Kiralık Kasa Durumu</string>
+    <string name="pgMapDetail_branch">Şube</string>
+    <string name="pgMapDetail_safeStatusTrue">Mevcut</string>
+    <string name="pgMapDetail_safeStatusFalse">Mevcut Değil</string>
+    <string name="pgMapDetail_lblTelefon">Telefon Numarası</string>
+    <!-- ATM Branch Activity End -->
+
+    <!-- Map -->
+    <string name="locationProgress">Konumun bulunuyor...</string>
+    <string name="directionProgress">Rota hesaplanıyor...</string>
+    <string name="pgMap_lblHeader">ATM / Şube Bulucu</string>
+    <string name="pgMap_Label1">Hepsi</string>
+    <string name="pgMap_Label2">Şube</string>
+    <string name="pgMap_Label3">ATM</string>
+    <string name="pgMap_approximateDistance">Yaklaşık Mesafen </string>
+    <string name="pgMap_edtSearchPlaceHolder">Adres, Şehir veya Şube adı</string>
+    <string name="pgMap_locationNotFound">"Konumunu bulamadık, telefon ayarlarını bir kontrol eder misin?"</string>
+    <string name="pgMap_open_location_settings">"Konum Ayarları"</string>
+    <!-- Map End -->
+
+    <!-- Dashboard -->
+    <string name="pgDashboard_lblInfoCaseAmount">"Toplam Kullanılabilir Bakiye:"</string>
+    <string name="pgDashboard_Label111">"Kartlarını ParaMara'da kullanmak için aktifleştirmelisin. Çok basit üstlerine tıkla yeter."</string>
+    <string name="pgDashboard_lblBalanceBanner">"Kullanılabilir Bakiye"</string>
+    <string name="pgDashboard_lblInfoCaseNoCard">"Ayrıcalıklardan faydalanmak için hemen başvursana."</string>
+    <string name="pgDashboard_lblCreateIninalCard">"ininal Kart Yarat"</string>
+    <string name="pgDashboard_lblAddIninalCard">"Kart Ekle"</string>
+    <string name="pgDashboard_lblApplyToIngCard">"ING Kartım Olsun"</string>
+
+    <string name="pgDashboard_lblCardList">"Kredi\nKartlarım"</string>
+    <string name="pgDashboard_lblPayDebt">"Borç\nÖdeme"</string>
+    <string name="pgDashboard_lblNakitAvans">"Nakit\nAvans"</string>
+    <string name="pgDashboard_lblTransfer">"Havale/\nEFT"</string>
+    <string name="pgDashboard_lblApplyCard">"Kredi Kartı\nBaşvuruları"</string>
+
+    <!-- Dashboard End -->
+
+    <!-- CreateNewIninalCard -->
+    <string name="pgIninalApplyToCard_lblHelpText">"Başvurmak istediğin ininal Alışveriş Kartını seçer misin?"</string>
+    <string name="pgIninalApplyToCard_lblNavBar">"ininal Alışveriş Kartları"</string>
+    <string name="pgIninalApplyToCard_btnWhatisIninalCard">"ininal Kart Nedir?"</string>
+    <string name="pgIninalApplyToCard_btnWhatisIninalCardInfo">"ininal Kart; MasterCard güvencesi ile sunulan ön ödemeli bir alısveriş kartıdır. ininal Kart ile internet üzerinde yüzlerce üye işyerinden indirimli alişveriş yapabilirsin. ininal Kartına toplamda 2.000 TL para yüklemesi olacak şekilde dilediğin tutarı yükleyebilirsin. Ayni anda en fazla 3 ininal Kart'a sahip olabilir, kullanim limiti dolan kartını da ininal Müşteri Hizmetleri (0212 331 70 67) üzerinden kapatabilirsin."</string>
+    <string name="pgIninalApplyToCard_lblPopHeader">"POPÜLER"</string>
+    <string name="pgIninalApplyToCard_lblCatHeader">"KATEGORİLER"</string>
+    <string name="pgIninalDetailOfCard_lblHeader">"ininal Kart"</string>
+    <string name="pgIninalDetailOfCard_lblMail">"Kartı kullanabilmek için e-posta adresinle kayıt ol yeter."</string>
+    <string name="pgIninalDetailOfCard_btnCreateCard">"Hemen Kullanmaya Başla"</string>
+    <string name="dlgIninalCardSuccess_lblHeader">"Tebrikler, kartın hazır."</string>
+    <string name="dlgIninalCardSuccess_lblInfo">"Kartına para yükleyerek hemen kullanmaya başlayabilirsin."</string>
+    <string name="dlgIninalCardSuccess_loadBalance">"Para Yükle"</string>
+    <string name="dlgIninalCardSuccess_howLoadBalance">"Nasıl Para Yüklerim?"</string>
+    <string name="dlgHowLoadMoneyToIninal_lblInformation">"Herhangi bir ING Bank ATM'sine git.(ATM Şube Bulucumuz giriş ekranında vardı. Kartsız İşlem menüsüne bak ininal kart yükleme adımını göreceksin.\nHerhangi bir bankadan karta EFT yaparak para yükleyebilirsin.(ING Bank'ı seçeceksin sakın unutma;))\nING Bank müşterisi isen İnternet Şubesi'nden yükleyebilirsin.\nPTT ve PTT Matik ATM' lerinden de para yükleyebilirsin.\nAyrıca Migros, Tansaş ve Migros Jet ATM' lerinden barkod okutarak para yükleyebilirsin."</string>
+    <!-- CreateNewIninalCard End -->
+
+    <!-- My Cards and Card Settings -->
+    <string name="last_statement_date">Son Ödeme Tarihi</string>
+    <string name="delete_card">Kartı sil</string>
+    <string name="change_card_name">Rumuz değiştir</string>
+    <string name="show_hide_dashboard">Kartını Ana Ekranda Göster / Gösterme</string>
+    <string name="dashboard_info_visible">Kartını gördük tamam.</string>
+    <string name="dashboard_info_gone">Kartın görünür değil.Kullanabilmek için açmalısın.</string>
+    <string name="dashboard_info_added">Kartını ana ekrana ekledin. Artık görünür.</string>
+    <string name="dashboard_info_removed">Biz uyaralım kartını ana ekranda sakladın, artık görünür olmayacak.</string>
+    <string name="connected_account_removal">Karta bağlı hesabını kaldırmak üzeresin, emin misin?</string>
+    <string name="connected_account_changed">Karta bağlı ana hesabı değiştirdin.</string>
+    <string name="primary_account_removal">Ana hesabını kaldırmak için öncelikle yeni bir ana hesap belirlemelisin.</string>
+    <string name="ininal_card_limits">ininal Kart Limitleri</string>
+    <string name="connected_accounts">Karta Bağlı Hesaplar</string>
+    <string name="other_accounts">Diğer Hesaplar</string>
+    <string name="pgCardSetting_lblCRChangeAccount_withdelete">Karta Bağlı Hesabı Değiştir/Sil</string>
+    <string name="pgCardSetting_lblCardActive1">"Kart Aktifleştirme / Pasifleştirme"</string>
+    <string name="pgCardSetting_lblCardActiveDetail1">"Seçili kartını kilitleyebilir ya da aktif hale getirebilirsin."</string>
+    <string name="pgCardSetting_lblMailTeleOrdDetail1On">"Kartınla telefon ve posta yolu ile yapılacak alışverişlere izin verebilirsin."</string>
+    <string name="pgCardSetting_lblQuashiCashDetail1On">"Kartının bahis oyunlarında kullanılabilmesine izin verebilirsin."</string>
+    <string name="pgCardSetting_lblLimitDetail1On">"Vaay süper. Otomatik limit artırımı talebinde bulundun."</string>
+    <string name="pgCardSetting_lblInternetShoppingDetailOn">"Kartınla internet üzerinden alışveriş yapılmasına izin verebilirsin."</string>
+    <string name="pgCardSettingDebitCard_btnNext">"Devam"</string>
+    <string name="pgCardSettingCreditCard_ErrorAutoLimitTopup">"Otomatik limit artış talebini iptal etmek için (0850 222 0 600) nolu Telefon Bankacılığımızı arayabilirsin."</string>
+    <string name="pgCardSetting_lblInternetShopping">"İnternetten Alışveriş"</string>
+    <string name="pgCardSetting_forPRheader">"ininal Kart Ayarları"</string>
+    <string name="pgCardSetting_forCRbtnChangeStatementDate">"Hesap Kesim Tarihini Değiştir"</string>
+    <string name="pgCardSetting_forCRheader">"Kredi Kartı Ayarları"</string>
+    <string name="pgCardSetting_forDBheader">"Nakit Kart Ayarları"</string>
+    <string name="pgCardSetting_forVCbtnTransferLimit">"Limit Tanımla"</string>
+    <string name="pgCardSetting_forVCheader">"Sanal Kart Ayarları"</string>
+    <string name="pgCardSetting_forOTheader">"Başka Banka Kart Ayarları"</string>
+    <string name="pgCardSetting_lblMailTelephoneOrder1">"Telefon/E-Posta ile Alışveriş"</string>
+    <string name="pgCardSetting_lblQuashiCash1">"Quashi Cash"</string>
+    <string name="pgCardSetting_lblLimit1">"Otomatik Limit Artışı"</string>
+    <string name="pgCardDetailInfo_forCRheader">"Kredi Kartı Detay Bilgileri"</string>
+    <string name="pgCardDetailInfo_forCRlblAvailableLimit">"Kullanılabilir Limit"</string>
+    <string name="pgCardDetailInfo_forCRlblBonus">"TL Bonus"</string>
+    <string name="pgCardDetailInfo_forCRlblLastPaymentDate">"Son Ödeme Tarihi"</string>
+    <string name="pgCardDetailInfo_forCRlblNextStatementDate">"Sonraki Hesap Kesim Tarihi"</string>
+    <string name="pgCardDetailInfo_forCRlblSpendingAmount">"Ekstre Borcu"</string>
+    <string name="pgCardDetailInfo_forCRlblTotalLimit">"Kart Limiti"</string>
+    <string name="pgCardDetailInfo_forCRlblUcusPuan">"Uçuş Puan"</string>
+    <string name="pgCardDetailInfo_forVCheader">"Sanal Kart Detay Bilgileri"</string>
+    <string name="pgCardDetailInfo_forVClblLimitEndDate">"Limit Bitiş Tarihi"</string>
+    <string name="pgCardDetailInfo_forVClblLimitStartDate">"Limit Başlangıç Tarihi"</string>
+    <string name="pgCardDetailInfo_forVClblRelatedCardAvailableLimit">"Bağlı Olduğu Kartın Kullanılabilir Limiti"</string>
+    <string name="pgCardDetailInfo_forVClblRelatedCardNumber">"Bağlı Olduğu Kart Numarası"</string>
+    <string name="pgCardDetailInfo_forVClblRelatedCardTotalLimit">"Bağlı Olduğu Kartın Toplam Limiti"</string>
+    <string name="pgCardDetailInfo_lblHeader1">"Kart Detay Bilgilerim"</string>
+    <string name="pgCardDetailInfo_forCRlblMinPaymentAmount">"Asgari Ödeme"</string>
+    <string name="pgMyCards_lblDateBanner_CaseNextStatement">"Hesap Kesim Tarihi"</string>
+    <string name="pgMyCards_lblHeader">"Kartlarım"</string>
+    <string name="pgMyCards_lblSendMoney">"Para Gönder"</string>
+    <string name="pgMyCards_lblLoadMoney">"Para Yükle"</string>
+    <string name="pgMyCards_lblLoadMoneyByBarcode">"Barkod İle Para Yükle"</string>
+    <string name="pgMyCards_lblLoadMoneyByBarcodeInfo">"Barkodu okutsana"</string>
+    <string name="pgMyCards_alertStartDateCannotBeBiggerThenEndDate">"Başlangıç tarihi bitiş tarihinden büyük olamaz!"</string>
+    <string name="pgMyCards_alertFirstlyChooseStartDate">"Önce başlangıç tarihini seç!"</string>
+    <string name="pgAskMoney_lblBannerAmount">"Tutar"</string>
+    <string name="pgIninalLimitInfo_btnIninalTransHistory">"ininal Ekstrem"</string>
+    <string name="pgStatementDate_pickerStatementDateEighth">"ayın 8. günü"</string>
+    <string name="pgStatementDate_pickerStatementDateFirst">"ayın 1. günü"</string>
+    <string name="pgStatementDate_pickerStatementDateSeventeenth">"ayın 17. günü"</string>
+    <string name="pgStatementDate_pickerStatementDateTenth">"ayın 10. günü"</string>
+    <string name="pgStatementDate_pickerStatementDateTwentyfifth">"ayın 25. günü"</string>
+    <string name="pgStatementDate_popUpTextEnd">"olacak. Ne dersin uygun mu?"</string>
+    <string name="pgStatementDate_popUpTextHome">"Kredi kartı hesap kesim tarihin"</string>
+    <string name="pgStatementDate_lblHeader">"Hesap Kesim Tarihi"</string>
+    <string name="pgVirtualCardTransferLimit_lblHeader">"Sanal Kart Limit Tanımla"</string>
+    <string name="pgVirtualCardTransferLimit_lblAvailableLimitTExt">"Kullanılabilir Limit"</string>
+    <string name="pgVirtualCardTransferLimit_lblTL">"TL"</string>
+    <string name="pgVirtualCardTransferLimit_lblStartDateText">"Limit başlangıç tarihi"</string>
+    <string name="pgVirtualCardTransferLimit_lblEndDateText">"Limit bitiş tarihi"</string>
+    <string name="pgVirtualCardTransferLimit2_lblHeader">"İşlem Özeti"</string>
+    <string name="pgVirtualCardTransferLimit2_lblVirtualLimitText">"Limit"</string>
+    <string name="pgVirtualCardTransferLimit2_lblStartDateText">"Limit Başlangıç Tarihi"</string>
+    <string name="pgVirtualCardTransferLimit2_lblEndDateText">"Limit Bitiş Tarihi"</string>
+    <string name="pgVirtualCardTransferLimit2_btnApply">"Onayla"</string>
+    <string name="pgOtherBankCardNameDeletedMessage">"Bu kart ile yollarınızı ayırmak istediğine emin misin?"</string>
+    <string name="pgOtherBankCardNameUpdatedMessage">"Kartının ismini değiştirdin."</string>
+    <string name="dlgActivateCard_btnCardToPassive">"Kartı Kilitle"</string>
+    <string name="dlgActivateCard_lblCardToPassive">"Kartını Kilitle"</string>
+    <string name="dlgActivateCard_lblInfoToPassive">"Kartını pasif hale getirmek için dört haneli kart şifreni (PIN) gir."</string>
+    <string name="dlgActivateCard_etPassField">"Kart Şifresi"</string>
+    <string name="dlgActivateCard_btnCardToActive">"Kartı Aktifleştir"</string>
+    <string name="dlgActivateCard_lblCardToActive">"Kartını Aktifleştir"</string>
+    <string name="dlgActivateCard_lblInfoToActive">"Dört haneli şifreni gir, kartını anında kullanmaya başla!"</string>
+    <string name="dlgActivateCard_lblInfoToActiveNew">"Kartının son kullanma tarihini gir, anında kullanmaya başla!"</string>
+    <string name="dlgSuccessProcess_activeHeader">"Kartın aktifleştirildi."</string>
+    <string name="dlgSuccessProcess_activeText">"Hemen kullanmaya başlayabilirsin."</string>
+    <string name="dlgSuccessProcess_pasiveHeader">"Tamamdır kartını kilitledik."</string>
+    <string name="dlgSuccessProcess_pasiveText">"Kartını kullanmak için tekrar aktifleştirmelisin."</string>
+    <string name="dlgOtherBankCardUpdate_edtName">"Rumuz güncellemeye ne dersin?"</string>
+    <string name="remaining_debt">Kalan Ekstre Borcu</string>
+    <!-- My Cards and Card Settings End -->
+
+    <!-- Ininal Transaction History -->
+    <string name="pgIninalTransactionHistory_lblHeaderInfo">"1 günden eski işlemlerini görmek için takvim ikonundan zaman aralığı seçmelisin."</string>
+    <string name="pgIninalTransactionHistory_lblHeader">"ininal Ekstrem"</string>
+    <string name="pgIninalTransactionHistory_alertStartDateCannotBeBiggerThenEndDate">"Başlangıç tarihi bitiş tarihinden büyük olamaz!"</string>
+    <string name="pgIninalTransactionHistory_alertEndDateCannotBeBiggerThenToday">"Bitiş tarihi bugünden sonra olamaz!"</string>
+    <string name="pgIninalTransactionHistory_alertFirstlyChooseStartDate">"Önce başlangıç tarihini seç!"</string>
+    <string name="pgIninalTransactionHistory_trxtype1">"ininal Kart ödemen iptal edildi."</string>
+    <string name="pgIninalTransactionHistory_trxtype3">"ininal Kart harcaman gerçekleşti."</string>
+    <string name="pgIninalTransactionHistory_trxtype6">"ininal Kart harcaman iptal edildi."</string>
+    <string name="pgIninalTransactionHistory_trxtype7">"ininal Kart işlem ücretin iade edildi."</string>
+    <string name="pgIninalTransactionHistory_trxtype8">"ininal Kart işlem ücretin kesildi."</string>
+    <string name="pgIninalTransactionHistory_trxtype9">"ininal Kart ödemen yapıldı."</string>
+    <string name="pgTransactionQR_lblTL">"TL"</string>
+    <string name="W_IninalTransactionHistory_NoData">"Kayıt bulunamadı"</string>
+    <string name="W_IninalTransactionHistory_NoCard">"Hiç ininal kartın yok, yeni oluşturmak ister misin?"</string>
+    <string name="W_TransactionHistory_DateFilter">"Tarihe göre filtrele"</string>
+    <string name="dlgOrder_btnOrderDateDesc">"Yeniden Eskiye Sırala"</string>
+    <string name="dlgOrder_btnOrderDateAsc">"Eskiden Yeniye Sırala"</string>
+    <string name="dlgOrder_btnOrderAmountDesc">"Büyükten Küçüğe Sırala"</string>
+    <string name="dlgOrder_btnOrderAmountAsc">"Küçükten Büyüğe Sırala"</string>
+    <string name="dlgOrderDate_btnCall">"Getir"</string>
+    <string name="start_date">Başlangıç Tarihi</string>
+    <string name="end_date">Bitiş Tarihi</string>
+    <string name="search">Ara</string>
+    <!-- Ininal Transaction History End -->
+
+    <!-- Actions Fragment -->
+    <string name="actions_title">"İşlemler"</string>
+    <string name="actions_btnSendMoney">"Para\nGönder"</string>
+    <string name="actions_btnRequestMoney">"Para\nİste"</string>
+    <string name="actions_btnWithdrawMoney">"ATM'den\nPara Çek"</string>
+    <string name="actions_btnTransferMoney">"Gelen\nParayı Al"</string>
+    <string name="actions_btnTransactionHistory">"ParaMara\nHareketlerim"</string>
+    <string name="actions_btnCardApplication">"ING Kartım\nOlsun"</string>
+    <string name="actions_btnIninalCardTransactionHistory">"ininal\nEkstrem"</string>
+    <string name="actions_btnDepositMoneyToIninalCard">"ininal Kart'a\nPara Yükle"</string>
+    <string name="actions_ErrorSendMoney">"Lütfen kartını aktifleştir."</string>
+    <string name="actions_ErrorSendMoneyNoCard">"Bankamıza ait kartın bulunmuyor. Para göndermek için karta başvurmak ister misin?"</string>
+    <string name="actions_ErrorIninalCardTransactionHistory">"İşlem geçmişine girebilmen için kartını aktifleştirmelisin. Hemen üstüne tıkla yeter."</string>
+    <string name="actions_ErrorDepositMoneyToIninalCard">"ininal Kart'lara para yükleyebilmek için, önce yüklemede kullanacağın kaynak kartını aktifleştirmen gerekiyor."</string>
+    <string name="actions_ErrorCardNotActive">"Lütfen kartını aktifleştir."</string>
+    <string name="actions_ErrorNoIninalCard">"Yükleme yapabilmeni biz de çok istiyoruz. ininal Kart Yarat menüsünden hemen başvurabilirsin."</string>
+    <string name="actions_ErrorIninalHistoryNoIninalCard">"Bir adım sen bir adım ben, ininal ekstreni görüntülemek için önce ininal kart yaratmalısın. Yaratmak için hemen tıkla."</string>
+    <string name="actions_ErrorNoIninalCard_OK_Button">"ininal Kart Yarat"</string>
+    <string name="actions_ErrorNoVisibleCard">"Bütün kartlarını gizlemişsin, göremiyoruz? Bana Özel Kartlarım menüsünden açabilir misin?"</string>
+    <string name="actions_ErrorNoVisibleCardOK">"Açarım Tabii"</string>
+    <string name="actions_ErrorNoVisibleCardCancel">"Şimdi Değil"</string>
+    <string name="actions_ErrorNoBankOrOtherCard">"Yükleme yapabilmeni biz de çok istiyoruz. Hemen Kredi Kart’ını Ekle ve ininal Kart’ına Para Yükle ya da arkadaşından Para İste ve hemen Gelen Parayı Al, kartına aktar ;)"</string>
+    <string name="actions_AddNewCard">"Kart Ekle"</string>
+
+    <!-- Actions Fragment End -->
+
+    <!-- Card Application Screens -->
+    <string name="caTitleCardApplication">"Kart Başvurusu"</string>
+    <string name="caTitlePegasusPlusCard">"ING Pegasus Plus Kart"</string>
+    <string name="caTitleBonusCard">"ING Bonus Kart"</string>
+    <string name="caTitleBonusPlusVirtualCard">"ING Bonus Plus Sanal Kart"</string>
+    <string name="caTitlePegasusPlusVirtualCard">"ING Pegasus Plus Sanal Kart"</string>
+    <string name="caHeader">"Hangi kartımızı verelim?"</string>
+    <string name="caCaptionPegasus">"Ohhh Kart Aidatı yok, bol bol uçuş puan ve Bonus var."</string>
+    <string name="caCaptionBonus">"Harcadıkça Bonus kazandıran kart."</string>
+    <string name="caCaptionBonusVirtual">"İnternet ve telefonda daha güvenli alışverişin anahtarı."</string>
+    <string name="caCaptionPegasusVirtual">"İnternet ve telefonda daha güvenli alışverişin anahtarı."</string>
+    <string name="caDetailLink">"Detaylı bilgi"</string>
+    <string name="caBtnApply">"Hemen Başvur"</string>
+    <string name="caDetailBonus">"ING Bonus Card ile harcadıkça bonus kazan, harcamalarını taksitlendir, hem de kazandığın bonuslarla bedava alışverişin keyfini çıkar ! Bir de ING Bonus +destek ile ihtiyaç duyduğun anda asistans hizmetlerinden faydalanabilirsin. Acil sağlık hizmetlerinden çilingire pek çok acil ihtiyacında ING Bonus Card ile ücretsiz hizmet alabilirsin. Hemen başvursana ING Bonus Card fırsatlarını sen de yakala !"</string>
+    <string name="caDetailPegasus" formatted="false">"Pegasus Kart, hem UçuşPuan hem bonus kazandıran, kart aidatı olmayan bir kredi kartıdır. Yaptığın tüm harcamalardan %1 UçuşPuan, Pegasus Havayolları ile gerçekleştirdiğin uçuşlardan %2 UçuşPuan kazanır üstüne de Pegasus Plus üyelik ayrıcalıklarından yararlanırsın.Daha ne olsun! Hadi hemen başvur, UçuşPuan biriktirirken bir de ING Bonus avantajlarından faydalan ;)"</string>
+    <string name="caDetailBonusVirtual">"Internet veya posta/telefon yoluyla yapacağın alışverişlerde ING Bonus Sanal Kart kullan, asıl kart bilgilerini paylaşmadan alışverişin tadını çıkar. Kafan rahat olsun !"</string>
+    <string name="caDetailPegasusVirtual">"Internet veya posta/telefon yoluyla yapacağın alışverişlerde ING Pegasus Sanal Kart kullan, asıl kart bilgilerini paylaşmadan alışverişin tadını çıkar. Kafan rahat olsun !"</string>
+    <string name="caSuccessMsg">"Tamamdır ! Kart başvuru talebini aldık."</string>
+    <string name="caVirtualCardSuccessMsg">"Sanal kartın hazıır !"</string>
+    <string name="caSuccessDetailMsg">"İsteklerin bizim için emirdir ! Müşteri temsilcimiz seni en kısa sürede arayacak."</string>
+    <string name="caVirtualCardSuccessDetailMsg">"Kullanmak için aktifleştirmen yeterli."</string>
+    <string name="caErrorHasBonusVirtualCard">"Ben uyarımı yapayım mevcut Bonus Sanal Kartın iptal edilip Pegasus Sanal Kartın tanımlanacak. Tamam mıdır?"</string>
+    <string name="caErrorHasPegasusVirtualCard">"Ben uyarımı yapayım mevcut Pegasus Sanal Kartın iptal edilip Bonus Sanal Kartın tanımlanacak. Tamam mıdır?"</string>
+    <!-- Card Application Screens End -->
+
+    <!-- Request Money Screens -->
+    <string name="rmTitleRequestMoney">"Para İste"</string>
+    <string name="rmPhoneHeader">"Para istediğin kişinin cep telefonu numarasını gir ya da kayıtlı kullanıcılarından seç."</string>
+    <string name="rmPhoneLbl">"Cep No"</string>
+    <string name="rmPhonebookLbl">"Kayıtlılar"</string>
+    <string name="rmAmountTitle">"Tutar gir"</string>
+    <string name="rmMsgTitle">"Mesaj yaz"</string>
+    <string name="rmRequestMoneyBtn">"Para İste"</string>
+    <string name="rmFromLbl">"Kimden"</string>
+    <string name="rmAmountHeader">"Lütfen istediğin tutarı gir."</string>
+    <string name="rmAmountLbl">"Tutar"</string>
+    <string name="rmMsgHeader">"Mesaj / Fotoğraf Ekle"</string>
+    <string name="rmMsgLbl">"Mesaj"</string>
+    <string name="rmNewRequestBtn">"Yeni İşlem Yap"</string>
+    <string name="rmSuccessDetail">"Para isteğine cevap verilsin hemen haber vereceğiz."</string>
+    <string name="rmSuccessHeader">"İşlemini başarı ile gerçekleştirdik."</string>
+    <string name="rmShareBtn">"Paylaş"</string>
+    <!-- Request Money Screens End -->
+
+
+    <!-- Transaction Detail -->
+    <string name="dialogSendMail_receipsendedMessage">"Tamamdır dekontunu göndereceğiz."</string>
+    <string name="dlgMailInput_lblInfo">"Dekontu göndermek istediğin mail adresini gir."</string>
+    <string name="dlgMailInput_btnActivateCard">"Gönder"</string>
+    <string name="dlgMailInput_Label1">"Dekont Gönder"</string>
+    <string name="pgTransactionDetail_lblTextAmount">"Tutar"</string>
+    <string name="pgTransactionDetail_lblTextReceiver">"Alıcı"</string>
+    <string name="pgTransactionDetail_lblTextSender">"Gönderen"</string>
+    <string name="pgTransactionDetail_lblTextDate">"İşlem Tarihi"</string>
+    <string name="pgTransactionDetail_btn1">"Alıcı Kaydet"</string>
+    <string name="pgTransactionDetail_btn2">"Dekont Gönder"</string>
+    <string name="pgTransactionDetail_btn4">"Gelen Parayı Al"</string>
+    <string name="pgTransactionDetail_lblHeader1">"İşlemin başarıyla gerçekleşti"</string>
+    <string name="pgTransactionDetail_btn3">"Yeni İşlem Yap"</string>
+    <string name="pgTransactionDetail_lblTextTransRepeat1">"Mesaj"</string>
+    <string name="pgTransactionDetail_lblFormattedSentMoney">"%1$s sana para gönderdi."</string>
+    <string name="pgTransactionDetail_lblTextTransRepeat11">"ATM Referans Kodu"</string>
+    <string name="pgTransactionDetail_askmoneysuccessmsg">"İşlemin başarıyla gerçekleşti"</string>
+    <string name="pgTransactionDetail_askmoneyfromwho">"Kimden"</string>
+    <string name="pgTransactionDetail_sendmoneysuccessmsg">"İşlemin başarıyla gerçekleşti"</string>
+    <string name="pgTransactionDetail_orderedsuccessmsg">"Talimatın Başarıyla Alındı."</string>
+    <string name="pgTransactionDetail_qrheader">"ATM'den Para Çek"</string>
+    <string name="pgTransactionDetail_historydetailnavheader">"İşlem Detay"</string>
+    <string name="pgTransactionDetail_historydetailsendedmoney">"Sana para geldiii. Kartlarına aktarmanı veya çekmeni bekliyor."</string>
+    <string name="pgTransactionDetail_historydetailaskedmoney">"Senden para istedi"</string>
+    <string name="pgTransactionDetail_atmnavheader">"ATM'den Para Çek"</string>
+    <string name="pgTransactionDetail_atmnavheader_listheader_exist">"Sana Gelen Parayı Çek"</string>
+    <string name="pgTransactionDetail_atmnavheader_listheader_empty">"Sana Gelen Parayı Çek"</string>
+    <string name="pgTransactionDetail_atmnavheader_withdrawfromcard_btn">"Kartımdan Para Çek"</string>
+    <string name="pgTransactionDetail_atmcanwithdrawmoneynotify">"Sana gönderilen parayı ING Bank ATM'lerinin Kartsız Para Çekme menüsünden çekebilirsin"</string>
+    <string name="pgTransactionDetail_atmcanwithdrawmymoneynotify">"Kendine gönderdiğin parayı ING Bank ATM'lerinin Kartsız Para Çekme menüsünden çekebilirsin."</string>
+    <string name="pgTransactionDetail_historydetailbtnsendreceipt">"Dekont Gönder"</string>
+    <string name="pgTransactionDetail_historydetailbtnsendmoneyagain">"Tekrar Para Gönder"</string>
+    <string name="pgTransactionDetail_historydetailbtncancelsended">"Gönderimi İptal Et"</string>
+    <string name="pgTransactionDetail_historydetailbtnsendsmsagain">"Tekrar SMS Gönder"</string>
+    <string name="pgTransactionDetail_historydetailbtnaskmoneyagain">"Tekrar Para İste"</string>
+    <string name="pgTransactionDetail_historydetailbtnsendmoney">"Para Gönder"</string>
+    <string name="pgTransactionDetail_historydetailbtndepositmoneyininalagain">"Tekrar Yükle"</string>
+    <string name="pgTransactionDetail_historydetailremained">"Paranı almaman durumunda %1$s gönderene iade edeceğiz."</string>
+    <string name="pgTransactionDetail_historydetailremainedAdd">" bugün içerisinde "</string>
+    <string name="pgTransactionDetail_historydetailremainedAdd2">" gün sonra "</string>
+    <string name="pgTransactionDetail_withdrawMoneySendedRefNo">"Referans kodu tekrar gönderildi."</string>
+    <string name="pgTransactionDetail_btn1AtmMap">"En yakın ATM"</string>
+    <string name="pgTransactionDetail_loadmoneyheader">"Para Yükle"</string>
+    <string name="pgTransactionDetail_lblTextAmount20">"TNA Komisyon"</string>
+    <string name="pgTransactionDetail_lblTextAmount19">"TNA Faiz"</string>
+    <string name="pgTransactionHistory_trxtype26">"ininal karta para yükledin."</string>
+    <string name="pgTransactionHistory_trxtype27">"Kartına para aktardın."</string>
+    <string name="pgTransactionHistory_trxtype2">"Gönderdiğin para aktarılmayı veya çekilmeyi bekliyor."</string>
+    <string name="pgTransactionHistory_trxtype5New">"Size para gönderdi. İşlemi tamamlayın."</string>
+    <string name="pgTransactionHistory_trxtype4">"Gelen parayı ATM'den çektin."</string>
+    <string name="pgTransactionHistory_trxtype4b">"Gelen parayı çektin."</string>
+    <string name="pgTransactionHistory_trxtype5">"Gelen parayı kartına aktardın."</string>
+    <string name="pgTransactionHistory_trxtype6">"Gönderdiğin para çekildi."</string>
+    <string name="pgTransactionHistory_trxtype7">"Enterasan. Gönderdiğin para geri geldi."</string>
+    <string name="pgTransactionHistory_trxtype8">"Üzgünüz gelen parayı kullanmadığın için iade edildi."</string>
+    <string name="pgTransactionHistory_trxtype10">"Para istedin."</string>
+    <string name="pgTransactionHistory_trxtype13">"Nakit karta para gönderdin."</string>
+    <string name="pgTransactionHistory_trxtype14">"Nakit kartına para gönderildi."</string>
+    <string name="pgTransactionHistory_trxtype15">"Kredi kartına para gönderdin."</string>
+    <string name="pgTransactionHistory_trxtype16">"Kredi kartına para gönderildi."</string>
+    <string name="pgTransactionHistory_trxtype18">"Gönderdiğin parayı iptal ettin."</string>
+    <string name="pgTransactionHistory_trxtype19">"Sana gönderilen para gönderici tarafından iptal edildi."</string>
+    <string name="pgTransactionHistory_trxtype20">"Paran gönderildi."</string>
+    <string name="pgTransactionHistory_trxtype21">"İstediğin para geldiii."</string>
+    <string name="pgTransactionHistory_trxtype22">"Gönderdiğin para ATM'den çekilirken sıkıştı."</string>
+    <string name="pgTransactionHistory_trxtype23">"Paran ATM'den çekerken sıkıştı."</string>
+    <string name="pgTransactionHistory_trxtypeUndefined">""</string>
+    <string name="pgTransactionHistory_lblRecord">"Uzun bir süredir uygulamayı kullanmıyorsun. Takvimden tarih aralığını seçerek tüm geçmiş işlemlerini görebilirsin."</string>
+    <string name="pgTransactionHistory_lblRecordEmptyAfterOperation">"Uygun Kayıt Bulunamadı"</string>
+    <string name="pgTransactionHistory_lblRecordEmptyAfterOperation2">"Görüntüleyebileceğin Kayıt Bulunamadı"</string>
+    <string name="pgTransactionHistory_lblWaiting">"Bekleyen"</string>
+    <string name="pgTransactionHistory_lblComing">"Gelen"</string>
+    <string name="pgTransactionHistory_lblSend">"Giden"</string>
+    <string name="pgTransactionHistory_lblAll">"Tümü"</string>
+    <!-- Transaction Detail End-->
+
+    <!-- Send Money -->
+    <string name="dlgContactSelect_btn1">"Kayıtlı Arkadaşlarım"</string>
+    <string name="dlgContactSelect_btn2">"Telefon Rehberim"</string>
+    <string name="ERROR_6077">"Kredi kartından para gönderme işlemine devam edebilmek için kartına bağlı açık bir hesabın olması lazım. Hemen açmak ister misin? Aşağıdaki maddeye kabul ediyorum de ve işlemine devam et.\n"</string>
+    <string name="pgSendMoney1_lblHeader">"Para Gönder"</string>
+    <string name="pgSendMoney1_lblAliciBanner2">"Alıcı seç"</string>
+    <string name="pgSendMoney1_Copy3oflblAliciBanner2">"Tutar gir"</string>
+    <string name="pgSendMoney1_lblMesajBanner11">"Mesaj yaz"</string>
+    <string name="pgSendMoney1_lblBanner">"Gönderen"</string>
+    <string name="pgSendMoney2_alert_ValidPhoneError">"Sadece cep telefonu numarasına gönderim yapabilirsiniz."</string>
+    <string name="pgSendMoney2_lblAliciBanner1">"Para Göndermek istediğin cep telefonunu, ING kart numarasını hatta ininal kart numarasını girebilir veya Facebook arkadaşını seçebilirsin."</string>
+    <string name="pgSendMoney2_imgbtnFacebook">"Facebook ile giriş yapma zamanı!"</string>
+    <string name="pgSendMoney2_lblLeft">"Cep No"</string>
+    <string name="pgSendMoney2_lblCenter">"Kart No"</string>
+    <string name="pgSendMoney3_edtAmountPlaceHolder">"Tutar (TL)"</string>
+    <string name="pgSendMoney3_alert_MoneyLimit">"Para gönderme limiti 19990 TL dir. Lütfen göndermek istediğiniz tutarı kontrol ediniz."</string>
+    <string name="pgSendMoney3_alert_MoneyAmount">"Ama sadece 10 TL ve katlarını gönderebilirsin."</string>
+    <string name="pgSendMoney3_lblInfo">"Lütfen göndermek istediğin tutarı gir."</string>
+    <string name="pgSendMoney3_imgbtnDevam">"Tamam"</string>
+    <string name="pgSendMoney5_EditBox1PlaceHolder">"Mesajın (opsiyonel)"</string>
+    <string name="pgSendMoney5_ImageButton1">"Tamam"</string>
+    <string name="pgSendMoney6_blBanner1_CaseFuture">"İşlem tarihi"</string>
+    <string name="pgSendMoney6_lblUcret_CaseFee">"İşlem Ücreti"</string>
+    <string name="pgSendMoney6_lblBanner42">"Mesaj"</string>
+    <string name="pgSendMoney6_lblBanner21">"Tutar"</string>
+    <string name="pgSendMoney6_lblBanner11">"Alıcı"</string>
+    <string name="pgSendMoney6_lblBanner1">"Gönderen"</string>
+    <string name="pgSendMoney6_Label1">"Lütfen CVV kodunu gir"</string>
+    <string name="pgSendMoney6_imgbtnOnayla">"Onayla"</string>
+    <string name="pgSendMoney6_imgbtnDevam">"Devam Et"</string>
+    <string name="pgSendMoney6_imgbtnDevamNew">"Devam"</string>
+    <string name="pgSendMoney6_CaseOrderedFeePart2">"TL"</string>
+    <string name="pgSendMoney6_lblInfoKMHPart1">"İşlemin tamamlandığında"</string>
+    <string name="pgSendMoney6_lblInfoKMHPart2">"TL destek hesabından kullanmış olacaksın."</string>
+    <string name="pgSendMoney6_lblInfoTNAComissionNotifyText">"İşlem komisyonun kredi kartının ilk ekstresine yansıtılacaktır."</string>
+    <string name="pgSendMoney6_noMessage">"Mesaj girilmemiş"</string>
+    <string name="pgSendMoney_alertStartDateCannotBeBiggerThenEndDate">"Başlangıç tarihi bitiş tarihinden sonra olamaz!"</string>
+    <string name="pgSendMoney_SelectContact">Kişi Seç</string>
+    <string name="pgSendMoney_photo">+ Fotoğraf</string>
+    <string name="pgSendMoney_capture_photo">"Kamerayı Kullan"</string>
+    <string name="pgSendMoney_pick_photo_from_gallery">"Galeriyi Kullan"</string>
+    <string name="pgSendMoney_choose_receiver">"Lütfen alıcıyı seçer misin?"</string>
+    <string name="pgSendMoney_choose_amount">"Lütfen miktarı belirtir misin?"</string>
+    <string name="pgSendMoney_alertWrongCard">"Lütfen kart bilgisini kontrol eder misin?"</string>
+    <string name="pgSendMoney_choose_selectiontype">"Seç"</string>
+    <string name="pgSendMoney_choose_selection_phone">"Telefon"</string>
+    <string name="pgSendMoney_choose_selection_card">"Kart"</string>
+    <string name="pgSendMoney_alertWrongPhoneSelectedInContactList">"Lütfen geçerli bir cep telefonu seçiniz."</string>
+    <string name="pgSendMoney_future_transaction">"İşlemin ileri bir tarihte yapılmasını istiyorum."</string>
+    <string name="pgSendMoney_periodic_transaction">"İşlemin düzenli olarak yapılmasını istiyorum."</string>
+    <string name="pgSendMoney_transaction_name">"İşlem Adı"</string>
+    <string name="pgSendMoney_transaction_period">"İşlem Periyodu"</string>
+    <string name="pgSendMoney_transaction_first_date">"İlk işlem tarihi"</string>
+    <string name="pgSendMoney_transaction_end_date">"Son işlem tarihi"</string>
+    <string name="pgSendMoney_transaction_transaction_daily">"Günlük"</string>
+    <string name="pgSendMoney_transaction_transaction_weekly">"Haftalık"</string>
+    <string name="pgSendMoney_transaction_transaction_annualy">"Aylık"</string>
+    <string name="pgTransferMoney_lblBannerAmount1">"Tutar"</string>
+    <!-- Send Money End-->
+
+    <!-- Transfer Money -->
+    <string name="pgHistory_noMoneyForComing">"Üzgünüm sana para gönderen olmamış."</string>
+    <string name="pgTransferMoney_lblBanner1">"Gönderen"</string>
+    <string name="pgTransferMoney_lblBannerAtmReferenceCode">"ATM Referans Kodu"</string>
+    <!-- Transfer Money End-->
+
+    <!-- Request Money -->
+    <string name="pgRequestMoney_choose_sender">Bugün biraz dalgınsın galiba, bence numarayı tekrar kontrol et."</string>
+    <string name="pgRequestMoney_invalid_amount">Ama sadece 10 TL ve katlarını isteyebiliyorsun."</string>
+    <string name="pgRequestMoney_same_phone_number">"Sadece başkasından para isteyebilirsin, ATM'den Para Çek menüsünü mü denesen?"</string>
+    <string name="pgRequestMoney_exceed_money_limit">"Tek seferde para isteme limitini aştın. Tekrar deneyebilir misin?"</string>
+    <!-- Request Money End-->
+
+    <!-- Load Money -->
+    <string name="pgLoadMoney_myCards">"Kartlarım"</string>
+    <string name="pgLoadMoney_myCardNo">"Kart No"</string>
+    <string name="pgLoadMoney_selectCard">"Para yüklemek istediğin kartı seç."</string>
+    <string name="pgLoadMoney_lblUcret_CaseFee">"ParaMara İşlem Ücreti"</string>
+    <string name="pgLoadMoney_lblTrsAmountText">"ininal karta para yükleme komisyonları yükleme anında kartına yansıtılacaktır."</string>
+    <string name="pgLoadMoney_lblInfo">"Gönderen Seç"</string>
+    <string name="pgLoadMoney_lblChooseDifferentCard">"Aynı karttan hem para yükleyip hem para gönderemesiniz."</string>
+    <!-- Load Money End-->
+
+    <!-- Withdraw Money From ATM -->
+    <string name="pgTransactionQR_btnLocation">"En Yakın ATM"</string>
+    <!-- Withdraw Money From ATM End-->
+
+    <!-- My Page -->
+    <string name="dlgPhotoSelect2_btnGallery">"Galeriden Seç"</string>
+    <string name="dlgPhotoSelect2_btnFacebook">"Facebooktan Seç"</string>
+    <string name="pgIninalLimitInfo_lblHeader">"ininal Kart Limitleri"</string>
+    <string name="pgIninalLimitInfo_lblLeftLimit">"Kalan Yükleme Limiti"</string>
+    <string name="pgLimitInfo_lblHeader">"ParaMara Limitleri"</string>
+    <string name="pgLimitInfo_lblTotalSended">"TOPLAM GÖNDERİLEN"</string>
+    <string name="pgLimitInfo_lblCustomerTab">"Alıcı ING Müşterisi"</string>
+    <string name="pgLimitInfo_lblNonCustomerTab">"Alıcı ING Müşterisi Değil"</string>
+    <string name="pgLimitInfo_lblDailyLimitForATM">"ATM'den günlük para çekme limitin "</string>
+    <string name="pgLimitInfo_btnTransHistory">"ParaMara Hareketlerim"</string>
+    <string name="pgLimitInfo_lblKalanLimitText1">"GÜNLÜK"</string>
+    <string name="pgLimitInfo_lblKalanLimitText2">"KALAN LİMİT"</string>
+    <string name="pgLimitInfo_lblTotalSenderLimitjs">"TOPLAM LİMİT "</string>
+    <string name="pgMyPage_lblOpportunities">"ParaMara Bilgilerim"</string>
+    <string name="pgMyPage_btnSummaryInfo">"Özet Bilgilerim"</string>
+    <string name="pgMyPage_lblHeaderSettingsNew">"Ayarlarım"</string>
+    <string name="pgMyPage_btnProfileSettings_UpdateEmail">"E-mailimi Güncelle"</string>
+    <string name="pgMyPage_btnProfileSettings_UpdateLicencePlate">"Plakamı Güncelle"</string>
+    <string name="pgMyPage_btnProfileSettings_UpdatePassword">"Şifremi Güncelle"</string>
+    <string name="pgMyPage_lblINGWallet1">"ParaMara"</string>
+    <string name="pgMyPage_btnClose">"Çıkış"</string>
+    <string name="pgMyPage_lblHeaderRegistered">"Arkadaşlarım"</string>
+    <string name="pgMyPage_btnRegisteredAlias">"Kayıtlı Arkadaşlarım"</string>
+    <string name="pgMyPage_btnWalletLimitNew">"ParaMara Limitlerim"</string>
+    <string name="pgMyPage_btnInviteFriendNew">"Arkadaşını Davet Et"</string>
+    <string name="pgMyPage_btnInviteFriend_SMSAlertNew">"Aranıza girmek istemeyiz. Arkadaşına SMS'i senin telefon numarandan göndereceğiz. Maalesef SMS ücreti de kendi tarifen üzerinden hesaplanacak."</string>
+    <string name="pgMyPage_btnProfileSettings_CardSettings">"Kart Ayarlarım"</string>
+    <string name="pgUsageSummary_MostSentPhoneOwner">"En çok para gönderdiğim telefon/kişi"</string>
+    <string name="pgUsageSummary_WalletRegisteredDate">"ParaMara açılış tarihi"</string>
+    <string name="pgUsageSummary_SumOfTransactionCount">"Toplam işlem sayısı"</string>
+    <string name="pgUsageSummary_lblHeader">"Kimlik Kartı"</string>
+    <string name="pgUsageSummary_SumofReceivedMoney">"Toplam gelen para"</string>
+    <string name="pgUsageSummary_SumOfSentMoney">"Toplam gönderdiğim para"</string>
+    <string name="pgUsageSummary_MostSentCardNew">"En çok para gönderdiğim kart/kişi"</string>
+    <string name="pgUsageSummary_MostSentFbFriend">"En çok para gönderdiğim facebook arkadaşım"</string>
+    <string name="pgUsageSummary_MostMoneySenderPhoneCount">"Toplam isteme sayım"</string>
+    <string name="pgUsageSummary_MostMoneyAskedPhoneCount">"Toplam isteme sayısı"</string>
+    <string name="pgUsageSummary_MostMoneySenderCardOwner">"Bana en çok para gönderen kişi"</string>
+    <string name="pgUsageSummary_MostMoneySenderPhoneOwner">"En çok para istediğim kişi"</string>
+    <string name="pgUsageSummary_MostMoneyAskedPhoneOwner">"Benden en çok para isteyen kişi"</string>
+    <string name="pgProfileActivity_lblHeader">"Bana Özel"</string>
+    <string name="pgProfileActivity_photo_alertDialog_title">"Fotoğraf Seç"</string>
+    <string name="pgProfileActivity_capture_photo">"Kamerayı Kullan"</string>
+    <string name="pgProfileActivity_capture_photoNew">"Kamera Kullan"</string>
+    <string name="pgProfileActivity_pick_photo_from_gallery">"Galeriyi Kullan"</string>
+    <string name="pgProfileActivity_pick_photo_from_galleryNew">"Galeriden Seç"</string>
+    <string name="pgProfileActivity_pick_photo_from_facebookNew">"Facebook Resmini Kullan"</string>
+    <string name="pgProfileActivity_AddInviteFriend_Sms">"SMS"</string>
+    <string name="pgProfileActivity_AddInviteFriend_Facebook">"Facebook"</string>
+    <string name="pgProfileActivity_AddInviteFriend_Email">"E-posta"</string>
+    <string name="pgProfileActivity_sendEmail_downloadApp">"Arkadaşın seni ParaMara'ya davet ediyor!\nParaMara sayesinde artık nakit paran her zaman cebinde!\n\nParaMara ile herkesten para isteyebilir, istediğin arkadaşına her an para gönderebilir ve kartın olsun olmasın tüm ING ATM'lerinden 7/24 nakit çekebilirsin!\nSadece nakit ihtiyaçların değil; yaratacağın ininal ön ödemeli kart ile internette 300'ün üzerinde anlaşmalı işyerinde indirimli alışveriş yapabilirsin!\nKullandıkça daha çok seveceksin. Hemen başlamak için tek ihtiyacın TC kimlik no'n ve cep telefonun!\nSen de para taşımaktan sıkıldıysan, store'lardan veya http://lk.ing.com.tr/?pm linkinden ParaMara'yı indirerek saniyeler içinde ParaMara'nın ayrıcalıklı dünyasına katılabilirsin.\n\n"</string>
+    <string name="pgProfileActivity_sendMessage_facebookMessage1">"Arkadaşın"</string>
+    <string name="pgProfileActivity_sendMessage_facebookMessage2">", seni ParaMara'ya davet ediyor. ParaMara ile cüzdanın her daim yanında, nakit paran her zaman cebinde! http://lk.ing.com.tr/?pm linkinden uygulamayı indirip, sen de aramıza katılabilirsin!"</string>
+    <string name="pgProfileActivity_sendSMS_smsText">"ParaMara ile nakit paran her zaman cebinde! http://lk.ing.com.tr/?pm linkinden uygulamayı indirip, sen de aramıza katılabilirsin!"</string>
+    <string name="pgProfileActivity_sendSMS_successSendFacebookNew">"Harika! Davetin başarıyla gönderildi."</string>
+    <string name="pgAddAndInviteFriend_lblHeader">"Arkadaş Ekle"</string>
+    <string name="pgAddAndInviteFriend_lblPhoneBooks">"Telefon Rehberi"</string>
+    <string name="pgAddAndInviteFriend_lblFacebook">"Facebook"</string>
+    <string name="pgAddAndInviteFriend_lblNewContact">"Yeni Arkadaş Ekle"</string>
+    <string name="pgAddAndInviteFriend_lblNewContactNew">"Yeni Kişi Yarat"</string>
+    <string name="pgProfileActivity_facebook_addfriend">"Seçtiğin kişi arkadaş listene eklenecek. Tamam mıdır?"</string>
+    <string name="pgAddNewPerson_btnSave">"Kaydet"</string>
+    <string name="pgAddNewPerson_btnEdit">"Düzenle"</string>
+    <string name="pgAddNewPerson_btnOkey">"Tamam"</string>
+    <string name="pgAddNewPerson_AddPersonLabel">"Kişi Ekle"</string>
+    <string name="pgAddNewPerson_PersonInfoLabel">"Kişi Bilgileri"</string>
+    <string name="pgAddNewPerson_PhoneCardNumberNew">"Cep telefonu ya da Kart numarasından birini girelim ki kaydederken kafa karışıklığı yaratmayalım."</string>
+    <string name="pgAddNewPerson_CardErrorNew">"Biraz dalgınız galiba kart numarasını tekrar kontrol eder misin? Geçerli bir kart numarası girmedin."</string>
+    <string name="pgAddNewPerson_addedAlias">"Tamamdır arkadaşın eklendi."</string>
+    <string name="pgAddNewPerson_updatedAliasNew">"Arkadaşının bilgileri güncellendi."</string>
+    <string name="pgAddNewPerson_nameSurnameErrorNew">"Sence de isimle eklemek daha iyi olmaz mı?"</string>
+    <string name="pgAddNewPerson_PhoneErrorNew">"Biraz dalgınız galiba telefon numarasını tekrar kontrol eder misin? Geçerli bir telefon numarası girmedin."</string>
+    <string name="pgAddNewPerson_PhoneErrorNewFromContact">"Biraz dalgınız galiba telefon numarasını tekrar kontrol edebilir misin? İlgili kayıt geçerli bir telefon numarasına sahip değil."</string>
+    <string name="pgAddNewPerson_phNameSurname">"İsim Soyisim"</string>
+    <string name="pgAddNewPerson_phPhone">"Telefon No"</string>
+    <string name="pgAddNewPerson_phCardNo">"Kart No"</string>
+    <string name="pgProfileActivity_registeredfriends_header">"Kayıtlı Arkadaşlarım"</string>
+    <string name="pgProfileActivity_registeredfriends_searchview_hint">"Kişi Ara"</string>
+    <string name="pgProfileActivity_registeredfriends_searchview_addfriend">"Kişi Ekle"</string>
+    <string name="pgProfileActivity_registeredfriends_nofriend">"Kayıtlı arkadaşın bulunmuyor"</string>
+    <string name="pgProfileActivity_registeredfriends_removefriend_popup_msg">" isimli arkadaşın listenden silinecek. Tamam mıdır?"</string>
+    <string name="pgProfileActivity_express_lblHeader">"TekrarMekrar"</string>
+    <string name="pgProfileActivity_express_lblTextTransaction">"Tekrarlamak istediğin işlemi seç"</string>
+    <string name="pgProfileActivity_express_lblTextNoTransaction">"Henüz tekrarlayabileceğin işlem yok"</string>
+    <string name="pgProfileActivity_express_trxtype6New">"Para başarıyla gönderildi."</string>
+    <string name="pgProfileActivity_express_trxtype15New">"Kredi kartına para gönderdin."</string>
+    <string name="pgProfileActivity_express_trxtype13New">"Nakit karta para gönderdin."</string>
+    <string name="pgProfileActivity_express_trxtype10New">"Para istedin."</string>
+    <string name="pgProfileActivity_express_trxtype26New">"ininal karta para yükledin."</string>
+    <string name="pgProfileActivity_express_alert_NoCardNew">"Bir adım sen bir adım ben, önce kartını aktifleştirmelisin Hemen üstüne tıkla yeter."</string>
+    <string name="pgProfileActivity_express_alert_NoCardAndNoIninalNew">"Lütfen kartlarını aktifleştir"</string>
+    <string name="pgProfileActivity_express_alert_NoCardAndIninalOkNew">"Lütfen ING kartını aktifleştir"</string>
+    <string name="pgProfileActivity_settings_updatepassword_header">"Şifre Değiştir"</string>
+    <string name="pgProfileActivity_settings_updatepassword_button">"Kaydet"</string>
+    <string name="pgProfileActivity_settings_updatepassword_oldlabel">"Uygulama şifresini değiştirmeye ne dersin?"</string>
+    <string name="pgProfileActivity_settings_updatepassword_oldinput">"Mevcut şifren"</string>
+    <string name="pgProfileActivity_settings_updatepassword_newinput">"Yeni şifreni gir"</string>
+    <string name="pgProfileActivity_settings_updatepassword_newinput_repeat">"Yeni şifreni tekrarla"</string>
+    <string name="pgProfileActivity_settings_updatepassword_success">"Şifren değişti"</string>
+    <string name="pgProfileActivity_settings_updateemail_header">"E-mail Güncelleme"</string>
+    <string name="pgProfileActivity_settings_updateemail_emailinfo">"E-posta adresini güncellemeye ne dersin?"</string>
+    <string name="pgProfileActivity_settings_updateemail_emailhint1">"e-posta adresin 1"</string>
+    <string name="pgProfileActivity_settings_updateemail_emailhint2">"e-posta adresin 2"</string>
+    <string name="pgProfileActivity_settings_updateemail_emailhint3">"e-posta adresin 3"</string>
+    <string name="pgProfileActivity_settings_updateemail_header_menu_save">"Güncelle"</string>
+    <string name="pgProfileActivity_settings_updateemail_success">"Tamamdır e-posta bilgilerin güncellendi."</string>
+    <string name="pgProfileActivity_settings_updateemail_warning">"Önce iletişim e-posta adresini seçmelisin"</string>
+    <string name="pgProfileActivity_settings_updateplate_header">"Plaka Güncelleme"</string>
+    <string name="pgProfileActivity_settings_updateplate_header_menu_save">"Kaydet"</string>
+    <string name="pgProfileActivity_settings_updateplate_lblplate">"Plakanı güncellemeye ne dersin?"</string>
+    <string name="pgProfileActivity_settings_updateplate_success">"Plakan güncellendi."</string>
+    <string name="pgProfileActivity_settings_mycards_header">"Kart Seçimi"</string>
+    <string name="pgNotifications_header">"Bildirimler"</string>
+    <string name="pgNotifications_lbl_noRecord">"Bildirimin bulunmuyor."</string>
+    <string name="pgFacebookShare_warning_popup_msg">"Para isterken kullandığın metin ve fotoğraf anasayfanda paylaşılacak onaylıyorsun değil mi?"</string>
+    <string name="pgFacebookShare_success_popup_msg">"Harika! Paylaşımın başarı ile gerçekleşti."</string>
+    <string name="pgFacebookShare_error_popup_msg">"Sorun sende değil, bende"</string>
+    <string name="pgFacebookShare_share_added_url">" - http://lk.ing.com.tr/?pm"</string>
+    <string name="pgWithDrawFromATM_header">"ATM'den Para Çek"</string>
+    <string name="pgWithDrawFromATM_lbl_info">"ATM'den Para Çek menüsünden sadece kendine para gönderebilirsin."</string>
+    <string name="pgAbout_lblHeader">"Hakkında"</string>
+    <string name="pgAbout_lblVersion">"Sürüm: "</string>
+    <!-- My Page End -->
+
+    <!-- FACEBOOK STRING BEGIN -->
+    <!--Test-->
+    <string name="app_id">511480228975112</string>
+    <!--Prod-->
+    <!--<string name="app_id">501490553306348</string>-->
+    <!-- FACEBOOK STRING END -->
+
+
+    <!-- Add  Cards -->
+    <string name="dlgAddIninalSuccess_lblInfo">"ininal ön ödemeli kartın hazır."</string>
+    <string name="dlgAddIninalSuccess_lblInfo2">"Kartını hemen kullanmaya başlayabilirsin."</string>
+    <string name="dlgIninalAddNewCard_edtEmailPlaceHolder">"E-Posta"</string>
+    <string name="dlgIninalAddNewCard_btnAddCard">"Kart Ekle"</string>
+    <string name="dlgIninalAddNewCard_cardInformationWrong">"Kart bilgilerini doğru girmedin sanki. Tekrar dener misin?"</string>
+    <string name="dlgIninalAddNewCard_lblHeader">"Kart Ekle"</string>
+    <string name="dlgIninalAddNewCard_lblExpirationDate">"SKT:"</string>
+    <string name="dlgIninalAddNewCard_lblCVV">"CVV:"</string>
+    <string name="pgAddIninalCard_lblHelpText">"Kredi kartı veya ininal kartının numarasını girerek ParaMara’ya hemen ekleyebilirsin."</string>
+
+    <string name="pgAddCard_ConfirmContract">"Sözleşmeyi okudum, onaylıyorum."</string>
+    <string name="pgAddCardSuccess_lblInfo">"Kartın artık bize emanet"</string>
+    <string name="pgAddCard_LabelNickName">Rumuz</string>
+    <string name="pgAddCard_NickName">Kart İsmi (Rumuz)</string>
+    <string name="pgAddCard_LastUseableDate">Son Kullanma Tarihi</string>
+    <string name="pgAddCard_CVV_CV2">CVV</string>
+    <string name="pgAddCard_Month">aa</string>
+    <string name="pgAddCard_Year">yy</string>
+    <string name="pgAddCard_Contract">BAŞKA BANKA KARTLARININ EKLENMESİ HAKKINDA</string>
+
+    <string name="pgProfileActivity_settings_touch_id">"Parmak izi"</string>
+    <string name="login_with_finger_print">"Parmak izi"</string>
+    <string name="pgMyPage_btnProfileSettings_TouchId">"Touch Id"</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_txtInformation">"Touch Id'yi aktifleştir. Fazladan Açıklama. Analistlerden alınacak"</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_lblInternetShopping">"Touch Id'yi aktifleştir."</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_AgreementHeader">"Touch Id Agreement Header"</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_Agreement">"Touch Id Agreement Text."</string>
+    <string name="pgMyPage_ProfileSettingsTouchIdActivate_Message">"Active Analistlerden alınacak."</string>
+    <string name="pgMyPage_ProfileSettingsTouchIdPassive_Message">"Passive Analistlerden alınacak."</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_EnableQuestion_Message">"TouchId Enable Analistlerden alınacak."</string>
+    <string name="pgMyPage_ProfileSettingsTouchId_DefineQuestion_Message">"Tanımla Analistlerden alınacak."</string>
+    <string name="loadmoney_to_ininal_card_no">İşlem yapmak istediğin kart numarasını gir</string>
+    <string name="loadmoney_to_ininal_cardno">Para yüklemek istediğin ininal kartın numarasını girer misin?</string>
+    <string name="loadmoney_to_ininal_no_active_ininalcard">"ininal Kart’larına yükleme yapabilmek için önce onları aktifleştirmen gerekiyor. Çok basit, kartının üzerindeki kilit ikonuna dokunman yeterli."</string>
+    <string name="loadmoney_to_ininal_no_visible_ininalcard">"ininal Kart’larını gizlemişsin ama. Bana Özel Kart Ayarlarım menüsünden tekrar görünür hale getirmen gerekiyor."</string>
+    <string name="actions_ErrorHasOnlyIninalCard">"Yükleme yapabilmeni biz de çok istiyoruz. Hemen Kredi Kart'ını Ekle ve ininal Kart'ına Para Yükle ya da arkadaşından Para İste ve hemen Gelen Parayı Al, kartına aktar."</string>
+    <string name="loadmoney_to_ininal_ErrorHasOnlyIninalCardButNotVisible">"ininal Kart'larını gizlemişsin ama. Bana Özel Kart Ayarlarım menüsünden tekrar görünür hale getirmen gerekiyor."</string>
+    <string name="loadmoney_to_ininal_AllIninalCardsPassive">"ininal Kart’larına yükleme yapabilmek için önce onları aktifleştirmen gerekiyor. Çok basit, kartının üzerindeki kilit ikonuna dokunman yeterli."</string>
+    <string name="loadmoney_to_ininal_HasNoIninalCard">"Yükleme yapabileceğin ininal Kart’ın bulunmuyor. ininal Kart Yarat menüsünden hemen oluşturabilirsin."</string>
+    <string name="loadmoney_to_ininal_ErrorCardNotActive">"ininal Kart'lara para yükleyebilmek için, önce yüklemede kullanacağın kaynak kartını aktifleştirmen gerekiyor."</string>
+    <string name="actions_ErrorHasCardButInvisible">" Bütün kartlarını gizlemişsin, göremiyoruz? Bana Özel Kartlarım menüsünden açabilir misin?"</string>
+    <string name="title_activity_test_pin">TestPinActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_atmbranch">ATMBranchActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_sms_otp">SMSOtpActivity</string>
+    <string name="title_activity_telephone_selection">TelephoneSelectionActivity</string>
+    <string name="title_activity_login_remember_me">LoginRememberMeActivity</string>
+
+
+    <!-- Add Ininal Cards End -->
+
+    <!-- Aydın -->
+    <!-- Login/ChangePassword Start -->
+
+
+    <string name="title_activity_login_change_password">Şifre Değişikliği</string>
+    <string name="label_change_password_old_pass">"Şifre"</string>
+    <string name="title_activity_login_change_password_success">Şifre Değişikliği</string>
+    <string name="passwordChangeSuccessHeader">Şifreniz değiştirilmiştir.</string>
+    <string name="passwordChangeSuccessBody">Şifrenizi hiçbir şart altında bankamız personeli dahil üçüncü kişilerle paylaşmayınız.</string>
+
+    <string name="title_activity_orange_account_calculator">Turuncu Hesap Hesaplama</string>
+
+
+    <string name="title_change_password_period_30">30 gün</string>
+    <string name="title_change_password_period_60">60 gün</string>
+    <string name="title_change_password_period_90">90 gün</string>
+
+
+    <!-- Login/ChangePassword End -->
+
+    <!--VehicleLoanCalculator Start-->
+
+    <string name="title_activity_auto_loan_calculator">Taşıt Kredisi Hesaplama</string>
+    <string name="LabelVehicleLoanCalculatorNewCar">SIFIR</string>
+    <string name="LabelVehicleLoanCalculatorSecondHandCar">İKİNCİ EL</string>
+    <string name="LabelVehicleLoanCalculatorCreditDetails">Kredi Detayları</string>
+    <string name="LabelVehicleLoanCalculatorMonthlyInstallment">Aylık Taksit</string>
+    <string name="LabelVehicleLoanCalculatorTotalPayback">Toplam Geri Ödeme</string>
+    <string name="LabelVehicleLoanCalculatorInterestRate">Faiz Oranı</string>
+    <string name="LabelVehicleLoanCalculatorCreditAllocationFee">Kredi Tahsis Ücreti</string>
+    <string name="title_activity_login_mobile_pass_walkthrough">LoginMobilePassWalkthroughActivity
+    </string>
+
+    <!--VehicleLoanCalculator End-->
+
+    <!-- ConsumerLoanCalculator Start -->
+
+    <string name="title_activity_consumer_loan_calculator">İhtiyaç Kredisi Hesaplama</string>
+    <string name="label_my_findeks_credit_note">Findeks Kredi Notum</string>
+    <string name="label_500_tl_interval">Hesaplama aracı 500 TL\'lik aralıklarla hesaplama yapar.</string>
+    <string name="spinner_consumer_calculator_dont_know">Bilmiyorum</string>
+    <string name="spinner_consumer_calculator_g_1700">1700 ve üzeri</string>
+    <string name="spinner_consumer_calculator_1600_1700">1600–1700 arası</string>
+    <string name="spinner_consumer_calculator_l_1600">1600 ve altı</string>
+
+    <!--ConsumerLoanCalculator End-->
+
+    <!-- CurrencyCalculator Start -->
+
+    <string name="title_activity_currency_calculator">Döviz Çevirici</string>
+    <string name="label_bank_purchases">BANKA ALIŞ</string>
+    <string name="label_bank_sales">BANKA SATIŞ</string>
+    <string name="title_activity_applications_menu">Başvurular</string>
+    <string name="title_activity_calculators_menu">Hesaplama Araçları</string>
+    <string name="title_keypad_clear_button_text">Temizle</string>
+
+    <!--CurrencyCalculator End-->
+
+    <!-- Orange Calculator Start -->
+
+    <string name="orange_calculator_hint_capital">Ana Para</string>
+    <string name="orange_calculator_hint_installment">Vade(Gün)</string>
+
+    <!-- Orange Calculator End -->
+
+
+    <string name="typeFaceItalic">italic</string>
+    <string name="typeFaceRegular">regular</string>
+    <string name="typefaceSemiBold">semi_bold</string>
+    <string name="typefaceSemiBoldItalic">semi_bold_italic</string>
+    <string name="typefaceBold">bold</string>
+    <string name="typefaceBoldItalic">bold_italic</string>
+    <string name="typefaceLight">light</string>
+    <string name="typefaceLightItalic">light_italic</string>
+    <string name="typefaceExtraLight">extra_light</string>
+    <string name="typefaceExtraLightItalic">extra_light_italic</string>
+
+    <!-- HUSEYIN ANALISTLERE BILDIRILECEK -->
+    <!-- Aktivasyon Telefon Secim Ekrani -->
+    <string name="nm_PagePhoneSelection_HintText">Cep Telefonu</string>
+    <string name="title_activity_checking_account">Vadesiz Mevduat</string>
+    <string name="title_activity_checking_account_agreement">CheckingAccountAgreementActivity
+    </string>
+    <string name="title_activity_checking_account_approve">CheckingAccountApprove</string>
+    <string name="title_activity_checking_account_success">CheckingAccountSuccess</string>
+
+
+    <!-- ApplicationMenu Start -->
+
+    <string name="title_applications_menu_consumer">İhtiyaç Kredisi</string>
+    <string name="title_applications_menu_orange">Turuncu Hesap</string>
+    <string name="title_applications_menu_mortgage">Konut Kredisi</string>
+    <string name="title_applications_menu_daily_package">Günlük Paket</string>
+    <string name="title_applications_menu_orange_box">Turuncu Kumbara</string>
+
+    <!-- ApplicationsMenu End -->
+
+    <!-- CalculatorsMenu Start -->
+
+    <string name="title_calculations_menu_currency">Döviz Çevirici</string>
+    <string name="title_calculations_menu_vehicle">Taşıt Kredisi</string>
+
+    <!-- CalculatorsMenu End -->
+
+
+    <!--fyoldas-->
+
+    <string name="strEndOfMaturityOptions">Vade Sonu Ayarı</string>
+    <!--Credit Card Application-->
+
+    <string name="title_card_app_success">Kredi Kartı Başvuru</string>
+    <string name="card_app_information_header">Kişisel Bilgileriniz</string>
+    <string name="bonus_app_header_title">ING Bonus Card Başvurusu</string>
+    <string name="pegasus_app_header_title">Pegasus Kart Başvurusu</string>
+    <string name="title_activity_credit_card_application">Kredi Kartı Başvurusu</string>
+    <string name="open_demand_body_content1">Hesabınız başarıyla</string>
+    <string name="open_demand_body_content2">açılmıştır</string>
+    <!--Credit Card Application-->
+
+
+    <!-- Dashboard -->
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="dashboard_accounts">Hesaplar</string>
+    <string name="dashboard_transfers">Para Transferleri</string>
+    <string name="dashboard_cards">Kartlar</string>
+    <string name="dashboard_payments">Ödemeler</string>
+    <string name="dashboard_investments">Yatırımlar</string>
+    <string name="dashboard_applications">Başvurular</string>
+    <string name="title_activity_time_deposit_account">TimeDepositAccountActivity</string>
+    <string name="account_transactions">"Hesap Hareketleri"</string>
+    <string name="account_transaction_detail">"İşlem Detayları"</string>
+
+    <string name="title_activity_time_deposit_account_approve">TimeDepositAccountApproveActivity
+    </string>
+    <string name="title_activity_accounts">"Hesaplarım"</string>
+    <string name="title_activity_time_deposit_account_success">TimeDepositAccountSuccessActivity
+    </string>
+
+    <!-- Accounts Start -->
+
+    <string name="pgAccounts_edtSearchPlaceHolder">Hesaplar Arası Arama Yapın</string>
+    <string name="title_activity_time_deposit_end_of_maturity">TimeDepositEndOfMaturity</string>
+    <string name="title_activity_new_account">NewAccountActivity</string>
+    <string name="title_activity_account_detail">Hesap Detayları</string>
+    <string name="title_account_detail_destek_hesap_limit">Destek Hesap Limiti</string>
+    <string name="title_account_detail_kull_destek_hesap">Kullanılabilir Destek Hesap</string>
+    <string name="title_account_detail_bloke">Toplam Bloke</string>
+    <string name="title_account_detail_likit_fon">Likit Fon Bakiyesi</string>
+    <string name="title_account_detail_oran">Oran</string>
+    <string name="title_account_detail_vade_gun">Vade Gün Sayısı</string>
+    <string name="title_account_detail_net_faiz_geliri">Net Faiz Geliri</string>
+    <string name="title_account_detail_donem_sonu_bakiye">Dönem Sonu Bakiye</string>
+    <string name="title_account_detail_faiz_oran">Faiz Oranı</string>
+    <string name="title_account_detail_son_faiz_kazanci">Son Ayki Faiz Kazancı</string>
+    <string name="title_account_detail_toplam_portfoy">Toplam Portföy</string>
+    <string name="title_account_detail_bakiye_t2">Bakiye (T+2)</string>
+    <string name="title_account_detail_bakiye">Bakiye</string>
+    <string name="title_account_detail_hisse_deger_t">Hisse Değer (T)</string>
+    <string name="title_account_detail_viop_cekilebilir">VIOP Çekilebilir Teminat (T)</string>
+    <string name="title_account_detail_viop_toplam">VIOP Toplam Teminat (T)</string>
+    <string name="title_account_detail_liquid_fon_balance">Likit Fon Bakiyesi</string>
+    <string name="title_activity_select_account">Hesap Seç</string>
+    <!-- Accounts End -->
+
+    <!-- Receipt -->
+    <string name="title_activity_receipt">Dekont</string>
+    <string name="label_receipt_remove_email">E-Postayı Kaldır</string>
+    <string name="title_activity_copy_iban_to_clipboard">CopyIbanToClipboardActivity</string>
+
+    <!-- Transfers Start -->
+    <string name="title_activity_transfer_to_ing_account">ING Hesaplarına</string>
+    <string name="title_activity_transfer_to_eft_account">Başka Bankaya</string>
+    <string name="label_transfer_roller_to_own">HESAPLARIM ARASI</string>
+    <string name="label_transfer_roller_to_other">BAŞKA HESABA</string>
+    <string name="label_account">Hesap</string>
+    <string name="label_transfer_to_my_account">Kendi Hesabıma</string>
+    <string name="label_transfer_to_iban_account">IBAN</string>
+    <string name="label_transfer_to_debit">Kart No</string>
+    <string name="label_transfer_to_name">İsme</string>
+    <string name="label_transfer_roller_regular">DÜZENLİ HAVALELERİM</string>
+    <string name="label_transfer_recorded_trx">Kayıtlılarım</string>
+    <string name="label_transfer_roller_recorded">KAYITLILARIM</string>
+    <string name="label_transfer_recorded_type">Ödeme Türü</string>
+    <string name="label_transfer_recorded_to_this_recorded">Bu Kayıtlıya</string>
+    <string name="label_transfer_recorded_info_amount">Kayıt Tutarı</string>
+    <string name="label_transfer_to_own">Hesaplarım</string>
+
+
+    <string name="label_transfer_receiver_information">Alıcı Bilgileri</string>
+    <string name="label_transfer_receiver_to_account">HESAP NO</string>
+    <string name="label_transfer_receiver_to_iban">"IBAN'A"</string>
+    <string name="label_transfer_receiver_to_card">KARTA</string>
+    <string name="label_transfer_select_receiver">Lütfen Hesap Seçiniz</string>
+    <string name="label_transfer_receiver_info_account_number">Hesap Numarası</string>
+    <string name="label_transfer_receiver_info_account_extension">MT</string>
+    <string name="label_transfer_receiver_info_amount">Gönderilen Tutar</string>
+    <string name="label_transfer_receiver_info_date">İşlem Tarihi</string>
+    <string name="label_transfer_receiver_payment_type_rent">Konut Kirası</string>
+    <string name="label_transfer_receiver_payment_type_office_rent">İşyeri Kirası</string>
+    <string name="label_transfer_receiver_payment_type_other_rent">Diğer Kira</string>
+    <string name="label_transfer_receiver_payment_type_other_payment">Diğer Ödeme</string>
+    <string name="label_transfer_receiver_date_today">(Bugün)</string>
+    <string name="label_transfer_receiver_date_tomorrow">(Yarın)</string>
+    <string name="label_transfer_receiver_previous">Önceki</string>
+    <string name="label_transfer_receiver_mail">E-mail</string>
+    <string name="label_transfer_success_order_header">Talimatınız \n başarıyla alınmıştır.</string>
+    <string name="label_transfer_success_receipt">"Fiş No: "</string>
+    <string name="label_transfer_success_order">"Talimat No: "</string>
+    <string name="label_recorded_transactions">KAYITLI İŞLEMLERİM</string>
+    <string name="label_recorded_remove">Kaldır</string>
+    <string name="label_regular_remove">Kaldır</string>
+
+    <string name="label_eft_roller_account">HESABA EFT</string>
+    <string name="label_eft_roller_regular">DÜZENLİ EFTLERİM</string>
+    <string name="label_eft_roller_recorded">KAYITLILARIM</string>
+    <string name="label_eft_recorded">Kayıtlılarım</string>
+    <string name="hint_search_recorded_transaction">Kayıtlı İşlem Arama</string>
+    <string name="label_select_recorded_transaction">Lütfen Kayıtlı İşlem Seçiniz</string>
+
+    <string name="message_not_found_recorded_transactions">Aradığınız kritere uygun kayıt bulunamadı.</string>
+
+    <!-- Help Me -->
+    <string name="title_activity_help">Yardım İstiyorum</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_transfer_success">TransferSuccessActivity</string>
+    <string name="title_activity_general_success_page">GeneralSuccessPageActivity</string>
+    <string name="title_activity_eft">Başka Bankaya (EFT)</string>
+    <string name="title_activity_money_transfer_between_accounts">MoneyTransferBetweenAccounts
+    </string>
+
+    <!-- Bill Payment Starts -->
+
+    <string name="title_activity_payment_bill">Fatura Ödemeleri</string>
+    <string name="title_activity_eft_success">EftSuccessActivity</string>
+    <string name="title_activity_bill_payment_success">BillPaymentSuccessActivity</string>
+    <string name="title_activity_card_detail">CardDetailActivity</string>
+    <string name="title_activity_card_list">Kartlar</string>
+
+    <string name="payment_bill_tab_billing">Fatura Ödeme</string>
+    <string name="payment_recorded_bill_tab">Kayıtlı Faturalar</string>
+    <string name="payment_regular_bill_tab">Otomatik Ödeme Talimatları</string>
+    <string name="payment_no_recorded_bill">Kayıtlı faturanız bulunmamaktadır</string>
+    <string name="payment_no_regular_bill">Otomatik ödemeniz bulunmamaktadır</string>
+    <string name="payment_bill_user_no">Abone No</string>
+    <string name="payment_bill_list_available_payments">Fatura Bilgileri</string>
+    <string name="payment_bill_list_select_bill">Ödemek istediğiniz faturayı seçiniz.</string>
+    <string name="payment_bill_last_payment_date">Son Ödeme Tarihi:</string>
+    <string name="payment_bill_last_payment_amount">Son Ödeme Tutarı</string>
+    <string name="payment_bill_next_payment_amount">Sonraki Ödeme Tutarı</string>
+    <string name="payment_bill_list_total_amount">Toplam Tutar</string>
+    <string name="payment_bill_list_amount">Ödenecek Tutar</string>
+    <string name="add_to_favourite">Favorilerime</string>
+    <string name="payment_bill_list_pay_total_debt">Borç Tutarının Tamamı</string>
+    <string name="payment_bill_list_total_debt_amount">Ödenecek Tutar</string>
+    <string name="payment_cancel_regular_bill">Talimatı İptal Et</string>
+    <string name="payment_back_regular_bill">Geri</string>
+
+    <string name="title_payment_loan">Kredi Ödemeleri</string>
+    <string name="payment_loan_consumer">İhtiyaç Kredisi</string>
+    <string name="payment_loan_vehicle">Taşıt Kredisi</string>
+    <string name="payment_loan_personnel">Personel Kredisi</string>
+    <string name="payment_loan_home">Konut Kredisi</string>
+    <string name="payment_loan">Kredi</string>
+
+    <!-- Bill Payment Ends -->
+
+    <!-- Corporate Payment Starts -->
+
+    <string name="title_activity_payment_corporate">Kurum Ödemeleri</string>
+    <string name="payment_corporate_text">Kurum Ödemeleri</string>
+    <string name="recorded_corporate_payments">Kayıtlılarım</string>
+    <string name="payment_corporate_tax_class">Vergi Sınıfı</string>
+    <string name="payment_corporate_query_type">Sorgu Türü</string>
+    <string name="payment_corporate_license_plate">Plaka No</string>
+    <string name="payment_corporate_license_plate_seperator">-</string>
+    <string name="payment_corporate_voucher_number">Tahakkuk Fiş No</string>
+    <string name="payment_corporate_payment_type_drop_side">Ödeme Türü</string>
+    <string name="payment_corporate_payment_type_drop_side_value">Vergi / Trafik Cezası</string>
+    <string name="payment_corporate_tax_class_drop_side">Vergi Sınıfı</string>
+    <string name="payment_corporate_tax_class_drop_side_traffic_fine">Trafik Cezası</string>
+    <string name="payment_corporate_tax_class_drop_side_vehicle_tax">Motorlu Taşıtlar Vergisi</string>
+    <string name="payment_corporate_query_type_drop_side">Sorgu Türü</string>
+    <string name="payment_corporate_period_drop_side">Dönem</string>
+    <string name="payment_corporate_query_type_drop_side_license_plate">Plaka No</string>
+    <string name="payment_corporate_query_type_drop_side_voucher_no">Tahakkuk Fiş No</string>
+    <string name="payment_corporate_payment_date">Vade Tarihi:</string>
+    <string name="payment_corporate_installment">Taksit</string>
+    <string name="payment_corporate_success_header">"Kurum ödemeleri işleminiz \n başarıyla gerçekleşmiştir."</string>
+    <string name="title_activity_payment_corporate_success">PaymentCorporateSuccessActivity</string>
+    <string name="payment_no_recorded_corporate">Kayıtlı kurum ödemeniz bulunmamaktadır</string>
+
+    <!-- Corporate Payment Ends -->
+
+
+    <!-- Loan Payment Starts -->
+
+    <string name="title_activity_payment_loan_application">Kredi Ödemeleri</string>
+    <string name="title_activity_loan_detail">Kredi Ödemeleri</string>
+    <string name="title_activity_loan_payment">Kredi Ödemeleri</string>
+    <string name="title_activity_payment_mobile_top_up">Cep Lira Yükleme</string>
+    <string name="title_activity_payment_mobile_top_up_success">Cep Lira Yükleme</string>
+    <string name="title_activity_loan_payment_success">Kredi Ödemeleri</string>
+
+    <!-- Loan Payment Ends -->
+
+
+    <!--Cards Starts-->
+
+    <string name="title_cards_main">Kartlar</string>
+    <string name="title_cards_available_limit">Kullanılabilir Limit</string>
+    <string name="title_cardtype_main">Asıl Kart</string>
+    <string name="title_cardtype_virtual">Sanal Kart</string>
+    <string name="title_cardtype_ek">Ek Kart</string>
+    <string name="title_card_menu_detail">İncele</string>
+    <string name="title_card_menu_nakit_avans">Nakit\nAvans</string>
+    <string name="title_card_menu_payment">Ödeme\nYap</string>
+    <string name="title_card_menu_virtual">Sanal\nKart</string>
+    <string name="title_card_menu_virtual_limit_update">Limit\nGüncelle</string>
+
+    <string name="title_card_virtual_card_no">Sanal Kart Numarası</string>
+    <string name="title_card_virtual_card_type">Kart Tipi</string>
+    <string name="title_card_virtual_card_owner">Kart Sahibi</string>
+    <string name="title_card_virtual_card_skt">Son Kullanma Tarihi</string>
+    <string name="title_card_virtual_card_cvv">Güvenlik Kodu CVV2</string>
+    <string name="title_card_virtual_card_limit">Sanal Kart Limiti</string>
+    <string name="title_card_virtual_card_limit_start_date">Limit Başlangıç Tarihi</string>
+    <string name="title_card_virtual_card_limit_end_date">Limit Bitiş Tarihi</string>
+    <string name="title_card_virtual_card_limit_related">Bağlı Olduğu Kart No</string>
+    <string name="title_card_virtual_update_limit">Limit Güncelle</string>
+    <string name="title_card_virtual_update_start_date">Başlangıç Tarihi</string>
+    <string name="title_card_virtual_update_end_date">Bitiş Tarihi</string>
+
+    <string name="title_card_cash_advance_confirm_cardNumber">"Kart Numarası"</string>
+    <string name="title_card_cash_advance_confirm_cardType">"Kart Tipi"</string>
+    <string name="title_card_cash_advance_confirm_cardTypo">"Kart Türü"</string>
+    <string name="title_card_cash_advance_confirm_cardLimit">"Limit"</string>
+    <string name="title_card_cash_advance_confirm_cardAvailableLimit">"Kullanılabilir Limit"</string>
+    <string name="title_card_cash_advance_confirm_cardAccountNo">"Hesap No"</string>
+    <string name="title_card_cash_advance_confirm_cardAvailableAmount">"Hesap Bakiyesi"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmount">"Nakit Avans Tutarı"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmountInstallementCount">"Taksit"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmountInstallementAmount">"Taksit Tutarı"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmountInstallementFirstDate">"İlk Taksit Tarihi"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmountInstallementTotalDebtAmount">"Toplam Borç Tutarı"</string>
+    <string name="title_card_cash_advance_confirm_cardAdvanceAmountInstallementTotalTransactionFee">"İşlem Ücreti"</string>
+
+    <string name="text_no_card">Herhangi bir kartınız bulunmamaktadır. Başvurmak ister misiniz? Bu metin değişecek</string>
+    <string name="title_activity_virtual_card_detail">VirtualCardDetail</string>
+
+    <string name="title_card_detail">KART DETAYI</string>
+    <string name="title_card_statement">EKSTRE</string>
+    <string name="title_card_mid_term_transaction">D.İÇİ İŞLEMLER</string>
+    <string name="title_card_installments">TAKSİTLERİM</string>
+    <string name="title_card_pending_transactions">BEKLEYEN İŞLEMLER</string>
+    <string name="card_limit">Kart Limiti : </string>
+    <string name="card_currentSpendingAmount">Dönem İçi Harcama</string>
+    <string name="card_last_statement_date">Sonraki Hesap Kesim Tarihi</string>
+    <string name="card_last_payment_date">Son Ödeme Tarihi</string>
+    <string name="card_last_statement_amount">Ekstre Borcu</string>
+    <string name="card_min_payment_amount">Asgari Ödeme Tutarı</string>
+    <string name="card_paid_statement_amount">Ödenen Ekstre Borcu</string>
+    <string name="card_remaining_statement_amount">Kalan Ekstre Borcu</string>
+    <string name="card_next_statement_date">Sonraki Hesap Kesim Tarihi</string>
+    <string name="card_partner_net_bonus">Bonus Puan</string>
+    <string name="card_partner_net_bonus_additional_card">Bonus/Ucus Puan</string>
+    <string name="card_all_spending_amount">Toplam Kart Borcu</string>
+    <string name="card_future_spending_amount">Gelecek Dönem Borcu</string>
+    <string name="card_review_button_text">İncele</string>
+    <string name="card_make_patment_button_text">Ödeme Yap</string>
+    <string name="card_pending_transactions_send_emil">E-Posta ile Gönder</string>
+
+    <string name="title_activity_virtual_card_limit_update">Sanal Kart Limit Güncelle</string>
+    <string name="title_limit_update_succes">Sanal Kart Limit Güncelle</string>
+    <string name="text_limit_update_succes_">işleminiz başarıyla gerçekleşmiştir.</string>
+    <string name="titlelimit_update_succes_righ_button">Anasayfa</string>
+
+    <string name="title_activity_card_statement_details">CardStatementDetailsActivity</string>
+    <string name="payment_mobile_top_up">Cep Lira Yükleme</string>
+    <string name="label_mobile_top_up_from_account">Bu Hesaptan</string>
+    <string name="label_mobile_top_up_to_number">Bu Numaraya</string>
+    <string name="payment_mobile_top_up_select_operator">Operatör</string>
+    <string name="payment_mobile_top_up_select_package">Paket</string>
+    <string name="payment_mobile_phone_number">Cep Telefonu</string>
+
+    <string name="label_card_payments_mine">KENDİ ING KARTIM</string>
+    <string name="label_card_payments_other_ing">BAŞKA ING KARTI</string>
+    <string name="label_card_payments_other_bank">BAŞKA BANKA KARTI</string>7
+    <string name="title_activity_card_payments">Kredi Kartı Borç Ödeme</string>
+    <string name="label_card_payments_debt_complete">Borç Tutarının Tamamı</string>
+    <string name="label_card_payments_debt_min">Asgari Tutar</string>
+    <string name="label_card_payments_debt_min2">Asgari Borç</string>
+    <string name="label_card_payments_to_card">Bu Kredi Kartına</string>
+    <string name="label_card_payments_from_account">Bu Hesaptan</string>
+    <string name="label_card_payments_account_no">Hesap No</string>
+    <string name="label_card_payments_remaining_debt">Ekstre Kalan Borç</string>
+    <string name="label_card_payments_remaining_total">Toplam Borç</string>
+    <string name="label_card_payments_total_bonus">Toplam Bonus / Mil</string>
+    <string name="label_card_payments_amount">Ödeme Tutarı</string>
+    <string name="title_activity_card_payments_success">CardPaymentsSuccessActivity</string>
+    <string name="label_card_payments_order">Otomatik Ödeme Talimatı</string>
+    <string name="label_card_payments_receiver_card_no">Alıcı Kart Numarası</string>
+    <string name="label_card_payments_receiver_card_no2">Alıcı Kart No</string>
+    <string name="label_card_payments_receiver_name">Alıcı Ad Soyad</string>
+    <string name="label_card_payments_expl">Açıklama</string>
+
+
+    <string name="payment_no_recorded_mobile_top_up">Kayıtlı Cep Lira Yükleme</string>
+    <string name="payment_mobile_top_up_recorded">Kayıtlı Cep Lira Yükleme</string>
+    <string name="mobile_top_up_success">Cep Lira Yükleme işleminiz başarıyla gerçekleşmiştir.</string>
+    <string name="title_activity_select_card">SelectCardActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_card_sending_mail">CardSendingMailActivity</string>
+    <string name="current_spending_sending_email_header">Dönem İçi Harcama</string>
+    <string name="future_spending_sending_email_header">Taksitlerim</string>
+    <string name="prending_transactions_sending_email_header">Bekleyen İşlemler</string>
+    <string name="after_sending_email_message">E-mail gönderimi başarıyla gerçekleşmiştir.</string>
+    <string name="text_card_payments_success">Kredi Kartı Borç Ödeme \n işleminiz başarıyla gerçekleşmiştir.</string>
+
+    <string name="message_not_found_recorded_mobile_top_up">Kayıtlı cep lira yüklemeniz bulunmamaktadır.</string>
+    <!--Cards Ends-->
+
+    <string name="title_activity_card_transfer">"Kredi Kartına EFT"</string>
+    <string name="title_tab_card_transfer_to_credit_card">"KREDI KARTINA EFT"</string>
+    <string name="title_tab_card_transfer_to_iban">"IBAN'A EFT"</string>
+    <string name="title_tab_card_transfer_to_iban_internal">"IBAN'A HAVALE"</string>
+    <string name="title_tab_card_transfer_to_registered">"KAYITLILARIM"</string>
+
+    <!-- MyPage Starts -->
+
+
+    <string name="title_activity_my_page">Bana Özel</string>
+    <string name="title_activity_limit_authority">Limit/Yetki Ayarlarım</string>
+    <string name="title_activity_limit_settings_fragment">Limit Ayarlarım</string>
+    <string name="title_activity_authority_settings_fragment">Yetki Ayarlarım</string>
+    <string name="title_activity_notifications">Bildirimlerim</string>
+    <string name="title_activity_card_settings">Kart Ayarlarım</string>
+    <string name="title_activity_automatic_payment">Otomatik Ödeme Talimatı</string>
+    <string name="title_activity_balance_display_settings">Bakiye Gösterim Ayarlarım</string>
+    <string name="expenditure_map_credit_card_tab">Kredi Kartı</string>
+    <string name="title_activity_expenditure_map">Harcama Haritam</string>
+
+    <!-- MyPage Ends -->
+
+    <string name="card_statement_detail_empty_message">Ekstre bulunamamıştır.</string>
+    <string name="card_curent_spending_empty_message">İşlem bulunamamıştır.</string>
+    <string name="card_future_spending_empty_message">İşlem bulunamamıştır.</string>
+    <string name="authorization_settings_full_role_label">Tam Yetkili Kullanıcı</string>
+    <string name="authorization_settings_high_role_label">Çok Yetkili Kullanıcı</string>
+    <string name="authorization_settings_low_role_label">Az Yetkili Kullanıcı</string>
+    <string name="authorization_settings_low_role_description">Sadece kayıtlı para transferleri için yetkim olsun.</string>
+    <string name="authorization_settings_high_role_description">Kayıtlı para transferleri ve diğer işlemler için yetkim olsun.</string>
+    <string name="authorization_settings_full_role_description">Yetki kısıtlaması olmasın.</string>
+    <string name="authorization_settings_none_role_label">Yetkisiz Kullanıcı</string>
+    <string name="authorization_settings_none_role_description">Sadece görüntüleme yetkim olsun.</string>
+    <string name="auth_settings_success">İşleminiz başarıyla\ngerçekleşmiştir.</string>
+    <string name="limit_settings_label_syncronize">Günlük Banka Limitine Eşitle</string>
+    <string name="limit_settings_label_limits">(Limitler)</string>
+    <string name="limit_settings_label_reset">Limiti Sıfırla</string>
+
 </resources>

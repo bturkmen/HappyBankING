@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/llAccountTrx"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteOpac30">
+
+    <ImageView
+        android:id="@+id/ivLine1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ing_button_line_height"
+        android:scaleType="fitXY"
+        android:src="@color/ing_orange" />
+
+    <TextView
+        android:id="@+id/view_ing_button_view_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/ing_button_inner_padding"
+        android:paddingTop="@dimen/ing_button_inner_padding"
+        android:gravity="center"
+        android:tag="@string/typefaceSemiBold"
+        android:textColor="@color/ing_orange"
+        android:textSize="@dimen/ing_button_text_size" />
+
+    <ImageView
+        android:id="@+id/ivLine2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ing_button_line_height"
+        android:scaleType="fitXY"
+        android:src="@color/ing_orange" />
+
+</LinearLayout>

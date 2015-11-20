@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="GroupedListView">
+        <attr name="single_header_enabled" format="boolean" />
+        <attr name="paging_enabled" format="boolean" />
+        <attr name="show_view_when_empty" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s1">"SMS Şifresinin gönderilmesini istediğiniz cep telefonunu seçiniz."</string>
+    <string name="s2">"Güvenliğiniz için mevcut şifrenizi değiştirmeniz ve Banka personeli dahil kimseyle paylaşmamanız gerekmektedir."</string>
+    <string name="s3">"Yeni belirleyeceğiniz şifreniz 6 rakamdan oluşmalıdır. Şifreniz birbirini takip eden, tekrarlayan ve doğum yılınız gibi kolay tahmin edilebilecek rakamlardan oluşmamalıdır."</string>
+    <string name="s4">"İnternet Şubesi girişiniz başarılıdır"</string>
+    <string name="s5">"İnternet şubesi oturumunuz kapatılmıştır."</string>
+    <string name="s6">"Size verilen sürede onay vermediğiniz için tekrar giriş yapmanız gerekmektedir."</string>
+    <string name="s7">"{Tarih} {Saat} ’de İnternet Şubesine Cep Şifre ile giriş yapmak istiyorsunuz"</string>
+    <string name="s8">"Sizin için oluşturulan Cep Şifre’nizi internet şubesindeki alana girin."</string>
+    <string name="s9">""</string>
+    <string name="s10">""</string>
+    <string name="s11">"Başvurunuz başarıyla alınmıştır. "</string>
+    <string name="s12">"Belirtmiş olduğunuz cep telefonunuzdan sizinle en kısa zamanda iletişime geçeceğiz. İlginiz için teşekkür ederiz. "</string>
+    <string name="s13">"Turuncu Kumbara başvuru işleminiz tamamlanmıştır"</string>
+    <string name="s14">"Lorem ipsum dolor sit amet"</string>
+    <string name="s15">"Günlük Paket başvuru işleminiz tamamlanmıştır"</string>
+    <string name="s16">"Lorem ipsum dolor sit amet"</string>
+    <string name="s17">"Başvurunuzun ön değerlendirmesi olumludur. "</string>
+    <string name="s18">"Ön onaylı kredi : <b>{ÖnOnaylıKredi}  TL</b> <br> Başvuru belgeleriniz ile sizi en yakın şubemize bekliyoruz. </br>"</string>
+    <string name="s19">"Konut Kredisi randevunuz başarıyla alınmıştır. "</string>
+    <string name="s20">"Lorem ipsum dolor sit amet"</string>
+    <string name="s21">""</string>
+    <string name="s22">"Lorem ipsum dolor sit amet"</string>
+    <string name="s23">"Lorem ipsum dolor sit amet"</string>
+    <string name="s24">"Başvurunuz başarıyla alınmıştır. "</string>
+    <string name="s25">"Belirtmiş olduğunuz cep telefonunuzdan sizinle en kısa zamanda iletişime geçeceğiz. İlginiz için teşekkür ederiz. "</string>
+    <string name="s26">""</string>
+    <string name="s27">"Winback kampanyası dahilindesiniz. Detaylı bilgi için 0850 222 0600 numarasını arayabilirsiniz. Hesabınıza para koyup faiz kazanmaya başlamak için lütfen giriş yapın. Giriş yapmak için {giriş linki} tıklayınız."</string>
+    <string name="s28">"{Uyarı image}"</string>
+    <string name="s29">"Mevcut bir turuncu hesabınız var. Hesabınıza para koyup faiz kazanmaya başlamak için lütfen giriş yapın. Giriş yapmak için {giriş linki} tıklayınız."</string>
+    <string name="s30">"Başvurunuz alınmıştır. Başvuru sonucunuz en kısa sürede cep telefonunuza SMS ile gönderilecektir."</string>
+    <string name="s31">"Başvurunuzun durumunu ##reference## referans numarası ile İnternet Şubesi, 0850 222 0 600 Telefon Bankacılığı ve şubelerimizden takip edebilirsiniz."</string>
+    <string name="s32">"Krediniz mevcut bilgilerle olumlu değerlendirilemiştir. "</string>
+    <string name="s33">"Lütfen %1$s no'lu cep telefonunuza gelen SMS şifreyi girin."</string>
+    <string name="s34">"Ön onaylı kredi limiti : <b>{ÖnOnaylıKrediLimiti} TL </b>  <br> Sadece size özel* faiz oranı : <b>{DüşükFaizOranı}</b> Başvuru belgeleriniz ile sizi en yakın şubemize bekliyoruz. </br>"</string>
+    <string name="s35">"Bankamızda mevcut ihtiyaç kredisi başvurunuz bulunmaktadır. "</string>
+    <string name="s36">"Başvuru belgeleriniz ile sizi en yakın şubemize bekliyoruz."</string>
+    <string name="s37">"Başvuru belgeleriniz ile sizi en yakın şubemize bekliyoruz."</string>
+    <string name="s38">"Son 1 ay içinde bankamıza yaptığınız ihtiyaç kredisi başvurunuz bulunmaktadır. "</string>
+    <string name="s39">"Hiç kaydınız bulunmamaktadır."</string>
+    <string name="s40">"Başvurunuz hakkında bilgilendirme cep telefonunuza kısa mesajla yapılacaktır. "</string>
+    <string name="s41">"SMS şifre giriş süreniz dolmuştur. Tekrar SMS Şifresi almanız gerekmektedir."</string>
+    <string name="s42">"Kredi başvurunuzu sonuçlandırmak için ek bilgilere ihtiyaç duyulmaktadır. Başvuru belgeleriniz ile sizi en yakın şubemize bekleriz."</string>
+    <string name="s43">"İşleminiz \n başarıyla gerçekleşmiştir."</string>
+    <string name="s44">"Devam etmek için Cep Şube şifrenizi girip Devam butonuna basın."</string>
+    <string name="s45">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a lorem ac mauris bibendum rhoncus. Donec eget odio vel eros mattis porttitor. Praesent in ante porttitor, dapibus metus sed, egestas massa."</string>
+    <string name="s46">"Bankamızda yapmış olduğunuz herhangi bir işlem bulunmadığı için favorilerinize işlem ekleyemiyorsunuz. İşlem yaptıktan sonra işlem sonuç sayfasından veya bana özel’den favori işlem belirleyebilirsiniz"</string>
+    <string name="s47">"Favori işleminiz bulunmamaktadır. İşlem Sonuç sayfalarından  favorilere ekle diyerek ya da önerilen işlemleri kullanarak favori işlem ekleyebilirsiniz. "</string>
+    <string name="s48">"Favori işleminiz bulunmamaktadır. İşlem Sonuç sayfalarından  favorilere ekle ile favori işlem ekleyebilirsiniz. "</string>
+    <string name="s49">"ING Bank A.Ş. tarafından yapılacak ürün ve/veya hizmetlerin tanıtım/sunum/pazarlanmasına ilişkin olarak tarafıma elektronik iletişin araçları ile sesli/görsel/yazılı v.b. mesaj içeren ticari elektronik ileti gönderilmesini onaylıyorum. "</string>
+    <string name="s50">"Şuanda arkadaşınızın cep telefonuna para gönderiyorsunuz. Arkadaşınız, gönderdiğiniz tutarı tüm ING ATM'lerinden çekebilir. Bu işlem ile kontör yükleme, fatura ödeme yapılmaz. "</string>
+    <string name="s51">""</string>
+    <string name="s52">"İşleminiz başarıyla gerçekleşmiştir."</string>
+    <string name="s53">"Seçtiğiniz kriterlere ait hesap hareketi bulunamadı."</string>
+    <string name="s54">"Hesabınızı vade gününden önce kapatıyorsunuz. İşleme devam ederseniz hesabınız faiz almayacaktır."</string>
+    <string name="s55">"İşleminiz başarıyla gerçekleşmiştir. "</string>
+    <string name="s56">"Fatura Ödeme işleminiz başarıyla gerçekleştirilmiştir."</string>
+    <string name="s57">"Seçtiğiniz hesap uzun süre işlem yapılmadığı için pasif durumdadır."</string>
+    <string name="s58">"Lütfen cep telefonu numarasını kontrol edin. Cep Telefonuna yapılacak yanlış yüklemelerde iptal ve iade mümkün olmayacaktır."</string>
+    <string name="s59">"Findeks risk raporunuz seçmiş olduğunuz e-posta adresinize gönderilmiştir. Lütfen e-postanızı kontrol ediniz. "</string>
+    <string name="s60">"Avantajlı Hoş Geldin Faizi ile biriktirmek için hemen başvurun!"</string>
+    <string name="s61">"Şifreniz 90 554 ****55 numarasına  SMS ile gönderilmiştir."</string>
+    <string name="s62">"Internet/Cep/Tablet Şube ilk giriş şifreniz 585280 olup 5 gün geçerlidir."</string>
+    <string name="s63">"Kullanıcı Kodunuz: 5828085 Lorem ipsum dolor sit amet."</string>
+    <string name="s64">"Şifrenizi bilmiyorsanız bankamızda kayıtlı olan cep telefonunuzdan SIFRE yazıp bir boşluk bırakarak kartınızın son 4 hanesini 2205'e kısa mesaj göndererek, şifrenizi alabilirsiniz. (Örnek: SIFRE 1111)"</string>
+    <string name="s65">"Cep Şifre, İnternet Şubesi'ne ve Cep Şube'ye giriş yaparken tek kullanımlık şifre üreterek güvenliğinizi sağlayan bir servistir."</string>
+    <string name="s66">"Giriş yaptığınız sırada cep telefonunuzda internet bağlantısı varsa, siz tek kullanımlık şifrenizi yazmakla uğraşmazsınız. Sistem bunu sizin için otomatik yapar."</string>
+    <string name="s67">"Telefonunuz çekmiyorsa ya da telefonunuzda internet bağlantınız yoksa bile endişelenmenize gerek yok. Cep Şifre ile ürettiğiniz şifreyi yazarak İnternet Şubesi'ne giriş yapabilirsiniz."</string>
+    <string name="s68">"Harcadıkça Bonus kazanın, harcamalarınızı taksitlendirin, kazandığınız Bonus’larla bedava alışverişin keyfini çıkarın. "</string>
+    <string name="s69">"Hem UçuşPuan hem Bonus kazandıran, kart aidatı olmayan kredi kartı olur mu demeyin! Hemen başvurun, ING Bonus avantajlarından faydalanırken UçuşPuan biriktirin."</string>
+
+    <string name="checking_account_title" >"Vadesiz Mevduat"</string>
+
+
+
+</resources>

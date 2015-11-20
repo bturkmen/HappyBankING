@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info1">"Avantajlı hoş geldin faizi ile hemen biriktirmeye başlayabilirsiniz! Turuncu Hesap, istediğiniz zaman para çekip para yatırabileceğiniz, vade derdi olmayan, EFT/Havale ücretleri alınmayan bir tasarruf hesabıdır. "</string>
+    <string name="info2">""</string>
+    <string name="info3">"Yılda 1300 TL kazanç sağlamak Günlük Paket ile çok kolay! Günlük Paket, EFT/Havale ücreti, kart aidatı olmayan ve hesap işletim ücreti alınmayan, üstelik fatura ödemelerinize Bonus veren günlük bankacılık paketidir. "</string>
+    <string name="info4">"Herkese aynı faiz oranına son! Borcuna sadık müşterilerimize özel avantajlı faiz oranları ile nakit ihtiyaçlarınızı ING ile karşılayın."</string>
+    <string name="info5">"Ev sahibi olmak ING ile çok kolay! Hemen başvurun, avantajlı faiz oranlarımızdan hemen faydalanın."</string>
+    <string name="info6">"Siz aracınızı seçin, gerisini biz halledelim!  Hemen başvurun; hem 0, km hem de 8 yaşa kadar ikinci el aracınız için uygun faiz oranlarımızdan faydalanın."</string>
+    <string name="info7">""</string>
+    <string name="info8">""</string>
+    <string name="info9">""</string>
+    <string name="info10">"Hem UçuşPuan, hem Bonus kazandıran, kart aidatı olmayan kredi kartı olur mu demeyin! Hemen başvurun, ING Bonus avantajlarından faydalanırken UçuşPuan biriktirin."</string>
+    <string name="info11">"Hemen başvurun, ING Bonus Card fırsatlarını yakalayın! Harcadıkça Bonus kazanın, harcamalarınızı taksitlendirin, ING Bonus Card’la kazandığınız Bonus’larla bedava alışverişin keyfini çıkarın. "</string>
+    <string name="info12">"Lorem ipsum dolor sit amet"</string>
+    <string name="info13">"Lorem ipsum dolor sit amet"</string>
+    <string name="info14">"Lorem ipsum dolor sit amet"</string>
+    <string name="info15">"Lorem ipsum dolor sit amet"</string>
+    <string name="info16">"Lorem ipsum dolor sit amet"</string>
+    <string name="info17">"Lorem ipsum dolor sit amet"</string>
+    <string name="info18">"Lorem ipsum dolor sit amet"</string>
+    <string name="info19">"Lorem ipsum dolor sit amet"</string>
+    <string name="info20">"Lorem ipsum dolor sit amet"</string>
+    <string name="info21">"Lorem ipsum dolor sit amet"</string>
+    <string name="info22">"Lorem ipsum dolor sit amet"</string>
+    <string name="info23">"Lorem ipsum dolor sit amet"</string>
+    <string name="info24">"Lorem ipsum dolor sit amet"</string>
+    <string name="info25">"Lorem ipsum dolor sit amet"</string>
+    <string name="info26">"Lorem ipsum dolor sit amet"</string>
+    <string name="info27">"Lorem ipsum dolor sit amet"</string>
+    <string name="info28">"Lorem ipsum dolor sit amet"</string>
+    <string name="info29">"Lorem ipsum dolor sit amet"</string>
+    <string name="info30">"Lorem ipsum dolor sit amet"</string>
+
+    <string name="info31">"• Değişen piyasa ve ülke koşullarına göre sürekli olarak güncellenen faiz oranları size hem yüksek kazanç hem de birikimlerinizi ING güvencesinde en verimli şekilde değerlendirme olanağı sunmaktadır.
+    • Hesaptan vadesi bozulmadan, aynı vade dönemi içerisinde 2 defayı geçmemek üzere, vadeli mevduat bakiyesinin  %20'si kadar para çekilebilmektedir. Para çekme işleminden sonra vadeli hesabınızda kalan bakiyeye faiz işlemeye devam eder*.
+    • Değişik vade alternatifleriyle TL ya da döviz cinsinden Vadeli Hesap açılabilmektedir.
+    • Hesap açma limiti minimum 5.000 TL, 2.000 USD ve 2.000 Euro'dur."</string>
+
+    <string name="info32">"ING Turuncu Hesap, istediğiniz zaman para çekip para yatırabileceğiniz, vade derdi olmayan, hesap işletim ve EFT/Havale ücretleri alınmayan bir tasarruf hesabıdır.
+    Detaylar
+    • Hoş geldin faizinin süresi 30 gündür ve hesap açıldığı anda geçerlilik süresi başlar. Faiz gecelik işler ve her gün sabittir.
+    •30 gün sonunda uygulanan Avantajlı faiz oranı günlük olarak belirlenir ve gecelik olarak işler. Faiz oranları yıllık basit brüt oranlardır.
+    • Hoş geldin faizinden ilk defa ING Turuncu Hesap açtıracak müşteriler yararlanabilir.
+    • Hesap açmak için alt limit yoktur.
+    • Hoş geldin faizi ve avantajlı faiz 150.000 TL'ye kadar geçerlidir. Bakiyenin bu tutarın üstüne çıkması durumunda aşan kısmına daha düşük faiz oranı uygulanacaktır.
+    • Hesaptan EFT/Havale yapılabilir.
+    • ING Turuncu Hesap'ınızda aylık ortalama 1.000 TL ve üzeri birikim olması durumunda bankamızda hesap işletim ücreti ödemezsiniz.
+    • Hafta içi 17.00'dan önce para yatırıldığında, aynı gün faiz kazandırmaya başlar.
+    • ATM'lerden Turuncu Hesap'a para yatırılabilir."</string>
+    <string name="info33">"Faturanızın üzerinde yazan bilgiler ile sorgulama yaptığınızda faturanızı görüntüleyemiyorsanız, ilgili kurum ile görüşmenizi rica ederiz."</string>
+    <string name="info34">"Cep Lira/Paket Yüklemelerinde hatalı yapılacak yüklemenin iptali ve iadesi mümkün değildir."</string>
+    <string name="info35">"Lorem ipsum dolor sit amet"</string>
+    <string name="info36">"Lorem ipsum dolor sit amet"</string>
+    <string name="info37">"Lorem ipsum dolor sit amet"</string>
+    <string name="info38">"Lorem ipsum dolor sit amet"</string>
+    <string name="info39">"Lorem ipsum dolor sit amet"</string>
+    <string name="info40">"Lorem ipsum dolor sit amet"</string>
+    <string name="info41">"Lorem ipsum dolor sit amet"</string>
+    <string name="info42">"Lorem ipsum dolor sit amet"</string>
+    <string name="info43">"Lorem ipsum dolor sit amet"</string>
+    <string name="info45">"Lorem ipsum dolor sit amet"</string>
+    <string name="info46">"Lorem ipsum dolor sit amet"</string>
+    <string name="info47">"Lorem ipsum dolor sit amet"</string>
+    <string name="info48">"Lorem ipsum dolor sit amet"</string>
+    <string name="info49">"Lorem ipsum dolor sit amet"</string>
+    <string name="info50">"Lorem ipsum dolor sit amet"</string>
+    <string name="info51">"•Kazandığınız bonuslar ile anında bedava alışveriş yapabilir ya da  biriktirip daha sonraki alışverişlerinizi bedavaya getirebilirsiniz.•Bonus kazandıkça daha çok kazandıracak ING Bonus Plus Card ve ING Bonus Premium Card'a terfi etme imkanı yakalayabilirsiniz.•ING Bonus +destek ile ihtiyaç duyduğunuz anlarda asistans hizmetlerinden faydalanabilirsiniz. Acil sağlık hizmetlerinden çilingire pek çok acil ihtiyacınızda ING Bonus Card ile ücretsiz hizmet alabilirsiniz.•Kredi kartları E-Ticaret ve Mail Order işlemlerine açık olarak gönderilmekte olup, müşteri ister ise 0850 222 0 600’ü arayarak bu işlemler için kullanıma kapatabilir"</string>
+
+
+</resources>

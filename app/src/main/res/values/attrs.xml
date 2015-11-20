@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference" />
+        <attr name="spb_color" format="color" />
+        <attr name="spb_stroke_width" format="dimension" />
+        <attr name="spb_stroke_separator_length" format="dimension" />
+        <attr name="spb_sections_count" format="integer" />
+        <attr name="spb_speed" format="float" />
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0" />
+            <enum name="spb_interpolator_linear" value="1" />
+            <enum name="spb_interpolator_acceleratedecelerate" value="2" />
+            <enum name="spb_interpolator_decelerate" value="3" />
+        </attr>
+        <attr name="spb_reversed" format="boolean" />
+        <attr name="spb_mirror_mode" format="boolean" />
+        <attr name="spb_colors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefreshView">
+
+        <!-- The class to use as a View's View Delegate. Can be relative path from app's package name -->
+        <attr name="ptrViewDelegateClass" format="reference|string" />
+
+    </declare-styleable>
+
+    <!-- SquarePageIndicator -->
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiSquarePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+
+    <!-- The attribute to set in your Application/Activity theme to reference your custom theme -->
+    <attr name="ptrHeaderStyle" format="reference" />
+
+    <declare-styleable name="PullToRefreshHeader">
+
+        <!-- A drawable to use as the background of the Header View -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- The height of the Header View -->
+        <attr name="ptrHeaderHeight" format="reference|dimension" />
+
+        <!-- The Text Appearance of the Header View's Title text -->
+        <attr name="ptrHeaderTitleTextAppearance" format="reference" />
+
+        <!-- The color that the Progress Bar should be tinted with -->
+        <attr name="ptrProgressBarColor" format="reference|color" />
+
+        <!-- The style of the Progress Bar -->
+        <attr name="ptrProgressBarStyle">
+            <flag name="inside" value="0x0" />
+            <flag name="outside" value="0x1" />
+        </attr>
+
+        <!-- The height of the Progress Bar -->
+        <attr name="ptrProgressBarHeight" format="reference|dimension" />
+
+        <!-- Text to show to prompt the user is pull (or keep pulling) -->
+        <attr name="ptrPullText" format="reference|string" />
+
+        <!-- Text to show to tell the user that a refresh is currently in progress -->
+        <attr name="ptrRefreshingText" format="reference|string" />
+
+        <!-- Text to show to tell the user has scrolled enough to refresh -->
+        <attr name="ptrReleaseText" format="reference|string" />
+
+        <!--indeterminate progressbar style-->
+        <attr name="ptrSmoothProgressBarStyle" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTabSwitch" format="boolean" />
+        <attr name="pstsActivateTextColor" format="color" />
+        <attr name="pstsDeactivateTextColor" format="color" />
+        <attr name="pstsTriangleIndicator" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="IngEditText">
+        <attr name="hintTextSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="hintFont" format="string" />
+        <attr name="normalFont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="IbanEditText">
+        <attr name="ibanType" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textFontSize" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="circleWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IngToggleButton">
+        <attr name="toggleText" format="string" />
+        <attr name="toggleTextColor" format="string" />
+        <attr name="prefName" format="string" />
+        <attr name="oval_background_off" format="string" />
+        <attr name="oval_background_on" format="string" />
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HamburgerButton">
+        <attr name="color_line" format="color" />
+        <attr name="color_line_close" format="color"/>
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatLabelLayout">
+        <!-- The hint to display in the floating label -->
+        <attr name="floatLabelHint" format="reference|string" />
+        <attr name="floatLabelPaddingTop" format="reference|dimension" />
+        <attr name="floatLabelPaddingBottom" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="EasingView">
+        <!-- The hint to display in the floating label -->
+        <attr name="easingSpeed" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialProgressBar">
+        <attr name="cpv_progress" format="float" />
+        <attr name="cpv_maxProgress" format="float" />
+        <attr name="cpv_animDuration" format="integer" />
+        <attr name="cpv_animSwoopDuration" format="integer" />
+        <attr name="cpv_animSyncDuration" format="integer" />
+        <attr name="cpv_color" format="color"/>
+        <attr name="cpv_thickness" format="dimension"/>
+        <attr name="cpv_indeterminate" format="boolean" />
+        <attr name="cpv_animAutostart" format="boolean" />
+        <attr name="cpv_animSteps" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="IngButtonView">
+        <attr name="buttonText" format="string" />
+    </declare-styleable>
+
+</resources>

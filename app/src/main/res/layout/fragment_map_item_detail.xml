@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tlMapDetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgName"
+            android:layout_width="25.6dp"
+            android:layout_height="25.6dp"
+            android:src="@drawable/map_branch_address" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="semi_bold"
+                android:text="Şube Adı"
+                android:textColor="#383838"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="semi_bold"
+                android:text="Şube Adı"
+                android:textColor="#939393"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28.4dp"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/ivVerticalLineTop"
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:src="@drawable/rectangle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgAddress"
+                android:layout_width="12.3dp"
+                android:layout_height="19.6dp"
+                android:layout_marginLeft="6.65dp"
+                android:src="@drawable/map_address_detail" />
+
+            <ImageView
+                android:id="@+id/ivVerticalLineBottom"
+                android:layout_width="1dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="12.3dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/rectangle" />
+        </LinearLayout>
+
+
+        <ingbank.com.tr.happybanking.map.fragment.TextFitTextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21.65dp"
+            android:layout_marginTop="-3dp"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:tag="regular"
+            android:text="Şube Adresi Şube Adresi Şube Adresi"
+            android:textColor="#545454"
+            android:textSize="16.3sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPhoneNumber"
+            android:layout_width="12.3dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="6.65dp"
+            android:src="@drawable/map_telephone" />
+
+        <TextView
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21.65dp"
+            android:layout_marginTop="-3dp"
+            android:clickable="true"
+            android:tag="semi_bold"
+            android:text="Tel: +90 (212) 335 10 00"
+            android:textColor="@color/ing_orange"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!--<TableRow-->
+    <!--android:layout_marginBottom="10.33dp"-->
+    <!--android:layout_marginTop="38dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/llInfo"-->
+    <!--android:layout_span="3"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtAppointment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:gravity="left"-->
+    <!--android:text="@string/im_map_appointment"-->
+    <!--android:textColor="@color/ing_orange"-->
+    <!--android:textSize="@dimen/bigger_text_size"-->
+    <!--android:visibility="gone" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtDirection"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="10.33dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:gravity="right"-->
+    <!--android:text="@string/im_map_direction"-->
+    <!--android:textColor="@color/ing_orange"-->
+    <!--android:textSize="@dimen/bigger_text_size" />-->
+    <!--</LinearLayout>-->
+    <!--</TableRow>-->
+
+</LinearLayout>

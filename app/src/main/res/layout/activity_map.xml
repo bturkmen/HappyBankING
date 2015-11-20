@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <FrameLayout
+        android:id="@+id/frmMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+    <TableLayout
+        android:id="@+id/tblFilterOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:shrinkColumns="1"
+        android:stretchColumns="1"
+        android:visibility="gone">
+
+        <TableRow
+            android:id="@+id/rowBranch"
+            android:background="@color/white"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBranchIcon"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/map_filter_branch" />
+
+            <TextView
+                android:id="@+id/txtBranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:tag="@string/typeFaceRegular"
+                android:text="Şube"
+                android:textColor="@color/ing_orange"
+                android:textSize="@dimen/middle_text_size" />
+
+            <ImageView
+                android:id="@+id/imgBranchTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/map_filter_tick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowATM"
+            android:background="@color/white"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgATMIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/map_filter_atm" />
+
+            <TextView
+                android:id="@+id/txtATM"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:tag="@string/typeFaceRegular"
+                android:text="ATM"
+                android:textColor="@color/ing_orange"
+                android:textSize="@dimen/middle_text_size" />
+
+            <ImageView
+                android:id="@+id/imgATMTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/map_filter_tick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowSpecial"
+            android:background="@color/white"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgSpecialIcon"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/map_filter_special" />
+
+            <TextView
+                android:id="@+id/txtSpecial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:tag="@string/typeFaceRegular"
+                android:text="Özel Bankacılık"
+                android:textColor="@color/ing_orange"
+                android:textSize="@dimen/middle_text_size" />
+
+            <ImageView
+                android:id="@+id/imgSpecialTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/map_filter_tick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowConcept"
+            android:background="@color/white"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgConceptIcon"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/map_filter_concept" />
+
+            <TextView
+                android:id="@+id/txtConcept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:tag="@string/typeFaceRegular"
+                android:text="Konsept Şubeler"
+                android:textColor="@color/ing_orange"
+                android:textSize="@dimen/middle_text_size" />
+
+            <ImageView
+                android:id="@+id/imgConceptTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/map_filter_tick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowDisabled"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imgDisabledIcon"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/map_filter_disabled" />
+
+            <TextView
+                android:id="@+id/txtDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:tag="@string/typeFaceRegular"
+                android:text="Engelli Erişim"
+                android:textColor="@color/ing_orange"
+                android:textSize="@dimen/middle_text_size" />
+
+            <ImageView
+                android:id="@+id/imgDisabledTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/map_filter_tick" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

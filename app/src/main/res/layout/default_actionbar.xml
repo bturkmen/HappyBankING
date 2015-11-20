@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ing_orange"
+    android:orientation="horizontal"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/imgActionbarLeftIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:scaleType="fitXY"
+        android:src="@color/transparent" />
+
+    <TextView
+        android:id="@+id/txtActionbarTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="semi_bold"
+        android:text="ING Mobil"
+        android:textColor="@color/white"
+        android:textSize="@dimen/actionBarTextSize" />
+
+    <ImageView
+        android:id="@+id/imgActionbarRightIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:scaleType="fitXY"
+        android:src="@color/transparent" />
+
+</LinearLayout><!-- From: file:/Users/mtac/workspaces/ingmobile/G48756%2520-%2520ING%2520Mobile%2520-%2520Android/ing_mobile_common/src/main/res/layout/default_actionbar.xml -->
