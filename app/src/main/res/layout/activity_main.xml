@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,11 +18,44 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"/>
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/pm_PageStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:weightSum="3">
 
-    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Happy BankING"
+        android:id="@+id/textView"
+        android:typeface="monospace"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#444" />
 
-    <include layout="@layout/content_main" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+>>>>>>> origin/master
 
+
+        <Button
+            android:id="@+id/btnDemo1"
+            style="@style/pm_ButtonStyle_Content_Level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demo1"
+            android:typeface="monospace" />
+
+<<<<<<< HEAD
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -30,3 +64,21 @@
         android:src="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>
+=======
+        <Button
+            android:id="@+id/btnDemo2"
+            style="@style/pm_ButtonStyle_Content_Level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demo2"
+            android:typeface="monospace" />
+        <Button
+            android:id="@+id/btnDemo3"
+            style="@style/pm_ButtonStyle_Content_Level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demo3"
+            android:typeface="monospace" />
+    </LinearLayout>
+</LinearLayout>
+>>>>>>> origin/master

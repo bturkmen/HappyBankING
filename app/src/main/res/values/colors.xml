@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <color name="im_login_gradient_start">#FFFFFF</color>
     <color name="im_login_gradient_end">#CEC5B7</color>
 
@@ -49,6 +50,21 @@
     <color name="light_gray">#999999</color>
     <color name="light_gray2">#908e8b</color>
     <color name="medium_gray">#545454</color>
+=======
+    <!--Style Guideline colors.-->
+    <color name="transparent">#00000000</color>
+    <color name="ing_orange">#FF6600</color>
+    <color name="ing_orange_opaque">#FF666666</color>
+    <color name="light_blue">#83C6F4</color>
+    <color name="ing_blue">#000066</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F4F4F4</color>
+    <color name="palest_gray">#E4E4E4</color>
+    <color name="pale_gray">#CCCCCC</color>
+    <!--hint color-->
+    <color name="light_gray">#999999</color>
+    <color name="medium_gray">#666666</color>
+>>>>>>> origin/master
     <color name="dark_gray">#333333</color>
     <color name="black_gray">#161616</color>
     <color name="yellow">#FFCE00</color>
@@ -64,16 +80,27 @@
     <color name="circle_indicator_fill_color">@color/white</color>
     <color name="circle_indicator_stroke_color">@color/black_gray</color>
     <color name="circle_indicator_page_color">@color/light_gray</color>
+<<<<<<< HEAD
+=======
+    <color name="list_divider">@color/black_gray</color>
+>>>>>>> origin/master
     <color name="list_background">@color/dark_gray</color>
     <color name="list_background_pressed">@color/ing_orange</color>
     <color name="counter_text_bg">@color/medium_gray</color>
     <color name="counter_text_color">@color/pale_gray</color>
 
+<<<<<<< HEAD
+=======
+    <color name="btn_pressed">@color/light_blue</color>
+    <color name="btn_focused">@color/ing_blue</color>
+    <color name="btn_normal">@color/transparent</color>
+>>>>>>> origin/master
 
     <color name="popup_bg_color">@color/medium_gray</color>
     <color name="separator_color">@color/pale_gray</color>
     <color name="popup_text_color">@color/white</color>
 
+<<<<<<< HEAD
 
     <color name="tvApply_active">@color/ing_orange</color>
     <color name="tvApply_passive">#c3bfb6</color>
@@ -123,4 +150,11 @@
     <dimen name="ame_default_cluster_text_shadow_offset_y">1dp</dimen>
     <dimen name="ame_default_cluster_text_size">16dp</dimen>
 
+=======
+    <color name="default_progress_bar_color">#FF33B5E5</color>
+
+
+    <color name="keyboard">#000000</color>
+    <color name="keyboard_secondary">#61615f</color>
+>>>>>>> origin/master
 </resources>
